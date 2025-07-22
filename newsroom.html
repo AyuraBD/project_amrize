@@ -1,7 +1,7 @@
 
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8"/>
     <title>Newsroom</title>
     
@@ -9,2021 +9,1245 @@
     <meta name="template" content="page-content"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
+    <script defer="defer" type="text/javascript" src="../../.rum/@adobe/helix-rum-js@^2/dist/rum-standalone.js.gz"></script>
+    <link rel="canonical" href="newsroom.html"/>
 
+    <!-- Standard favicon -->
+    <link rel="icon" href="../content/dam/newco/favicons/favicon.ico"/>
     
+    <!-- favicons for different sizes -->
+    <link rel="icon" type="image/png" href="public/favicons/favicon-196x196.png" sizes="196x196"/>
+    <link rel="icon" type="image/png" href="public/favicons/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="public/favicons/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="public/favicons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="https://www.amrize.com/content/dam/newco/favicons/favicon-128.png" sizes="128x128"/>
+
+    <!-- Apple Touch Icon (iPhone, iPad, etc) -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../content/dam/newco/favicons/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../content/dam/newco/favicons/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../content/dam/newco/favicons/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../content/dam/newco/favicons/apple-touch-icon-152x152.png"/>
+
+    <!-- Android / Chrome -->
+    <link rel="icon" sizes="192x192" href="public/favicons/android-chrome-192x192.png"/>
+    <link rel="icon" sizes="512x512" href="public/favicons/android-chrome-512x512.png"/>
+
+
+    <!-- Safari Pinned Tab (Mac OS) -->
+    <link rel="mask-icon" href="public/favicons/safari-pinned-tab.svg" color="#FFFFFF"/>
     
-<script defer="defer" type="text/javascript" src="../../.rum/@adobe/helix-rum-js@^2/dist/rum-standalone.js.gz"></script>
-<link rel="canonical" href="newsroom.html"/>
-
-
+    <!-- Windows Metro Tiles -->
+    <meta name="msapplication-TileColor" content="#FFFFFF"/>
+    <meta name="msapplication-TileImage" content="/content/dam/newco/favicons/mstile-144x144.png"/>
+    <meta name="msapplication-square70x70logo" content="/content/dam/newco/favicons/mstile-70x70.png"/>
+    <meta name="msapplication-square150x150logo" content="/content/dam/newco/favicons/mstile-150x150.png"/>
+    <meta name="msapplication-wide310x150logo" content="/content/dam/newco/favicons/mstile-310x150.png"/>
+    <meta name="msapplication-square310x310logo" content="/content/dam/newco/favicons/mstile-310x310.png"/>
     
-<!-- Standard favicon -->
-<link rel="icon" href="../../content/dam/newco/favicons/favicon.ico"/>
-
-<!-- favicons for different sizes -->
-<link rel="icon" type="image/png" href="../../content/dam/newco/favicons/favicon-196x196.png" sizes="196x196"/>
-<link rel="icon" type="image/png" href="../../content/dam/newco/favicons/favicon-96x96.png" sizes="96x96"/>
-<link rel="icon" type="image/png" href="../../content/dam/newco/favicons/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="../../content/dam/newco/favicons/favicon-16x16.png" sizes="16x16"/>
-<link rel="icon" type="image/png" href="https://www.amrize.com/content/dam/newco/favicons/favicon-128.png" sizes="128x128"/>
-
-<!-- Apple Touch Icon (iPhone, iPad, etc) -->
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../content/dam/newco/favicons/apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../content/dam/newco/favicons/apple-touch-icon-144x144.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-60x60.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../content/dam/newco/favicons/apple-touch-icon-120x120.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.amrize.com/content/dam/newco/favicons/apple-touch-icon-76x76.png"/>
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../content/dam/newco/favicons/apple-touch-icon-152x152.png"/>
-
-<!-- Android / Chrome -->
-<link rel="icon" sizes="192x192" href="../../content/dam/newco/favicons/android-chrome-192x192.png"/>
-<link rel="icon" sizes="512x512" href="../../content/dam/newco/favicons/android-chrome-512x512.png"/>
-
-
-<!-- Safari Pinned Tab (Mac OS) -->
-<link rel="mask-icon" href="../../content/dam/newco/favicons/safari-pinned-tab.svg" color="#FFFFFF"/>
-
-
-<!-- Windows Metro Tiles -->
-<meta name="msapplication-TileColor" content="#FFFFFF"/>
-<meta name="msapplication-TileImage" content="/content/dam/newco/favicons/mstile-144x144.png"/>
-<meta name="msapplication-square70x70logo" content="/content/dam/newco/favicons/mstile-70x70.png"/>
-<meta name="msapplication-square150x150logo" content="/content/dam/newco/favicons/mstile-150x150.png"/>
-<meta name="msapplication-wide310x150logo" content="/content/dam/newco/favicons/mstile-310x150.png"/>
-<meta name="msapplication-square310x310logo" content="/content/dam/newco/favicons/mstile-310x310.png"/>
-<!-- og metadata -->
-
-    <meta property="og:url" content="https://www.amrize.com/us/en/newsroom.html"/>
-    <meta property="og:title" content="Newsroom"/>
-    <meta property="og:description" content="Company news, updates, events and the latest happenings at Amrize."/>
-    <meta property="og:type" content="website"/>
-
-
-
-
+    <!-- og metadata -->
+    <meta property="og:url" content="https://www.amrize.com/us/en/amrize-homepage.html"/>
+    <meta property="og:title" content="Amrize: Build your ambition with us"/>
+    <meta property="og:description" content="An overview of Amrize. Get to know North America’s leader in building materials and building envelope solutions."/>
+    <meta property="og:type" content="website"/> 
+    <link rel="alternate" href="https://amrize.com/us/en/amrize-homepage.html" hreflang="en-US"/>  
+    <link rel="alternate" href="https://amrize.com/ca/fr/amrize-homepage.html" hreflang="fr-CA"/>
     
-        <link rel="alternate" href="newsroom.html" hreflang="en-US"/>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TX79BMWZ');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" href="src/clientlibs/clientlib-base1.min.css" type="text/css">
+    <link rel="stylesheet" href="src/clientlibs/clientlib-dependencies.min.css" type="text/css">
+    <link rel="stylesheet" href="src/clientlibs/clientlib-site1.min.css" type="text/css">
     
-        <link rel="alternate" href="../../ca/fr/newsroom.html" hreflang="fr-CA"/>
+    <script src="src/clientlibs/clientlib-dependencies.lc.min.js"></script>
+    <script async src="src/clientlibs/core.wcm.components.commons.min.js"></script>
+    <script async src="src/clientlibs/core.wcm.components.commons.datalayer.min.js"></script> 
     
+  </head>
+  <body class="page basicpage" id="page-d77b3dbdd9" data-cmp-link-accessibility-enabled data-cmp-link-accessibility-text="opens in a new tab" data-cmp-data-layer-enabled data-cmp-data-layer-name="adobeDataLayer">
+    <script>
+      var dataLayerName = 'adobeDataLayer' || 'adobeDataLayer';
+      window[dataLayerName] = window[dataLayerName] || [];
+      window[dataLayerName].push({
+          page: JSON.parse("{\x22page\u002Dd77b3dbdd9\x22:{\x22@type\x22:\x22newco\/components\/page\x22,\x22repo:modifyDate\x22:\x222025\u002D06\u002D27T22:39:55Z\x22,\x22dc:title\x22:\x22Newsroom\x22,\x22dc:description\x22:\x22Company news, updates, events and the latest happenings at Amrize.\x22,\x22xdm:template\x22:\x22\/conf\/newco\/settings\/wcm\/templates\/page\u002Dcontent\x22,\x22xdm:language\x22:\x22en\x22,\x22xdm:tags\x22:[],\x22repo:path\x22:\x22\/content\/newco\/us\/en\/newsroom.html\x22}}"),
+          event:'cmp:show',
+          eventInfo: {
+              path: 'page.page\u002Dd77b3dbdd9'
+          }
+      });
+    </script>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TX79BMWZ');</script>
-<!-- End Google Tag Manager -->
-
-
-
-
-
-    
-    <link rel="stylesheet" href="../../etc.clientlibs/newco/clientlibs/clientlib-base.lc-5b6bf6bddb27a9ef3f911fb1eb20081a-lc.min.css" type="text/css">
-
-
-
-
-
-
-    
-    
-    
-
-    
-
-    
-    <script src="../../etc.clientlibs/newco/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.js"></script>
-
-
-    
-    <link rel="stylesheet" href="../../etc.clientlibs/newco/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
-<link rel="stylesheet" href="../../etc.clientlibs/newco/clientlibs/clientlib-site.lc-b3e016427526b718c8256d481d8655c0-lc.min.css" type="text/css">
-
-
-    
-    
-    <script async src="../../etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js"></script>
-
-
-    
-    <script async src="../../etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js"></script>
-
-
-
-    
-    
-</head>
-    <body class="page basicpage" id="page-d77b3dbdd9" data-cmp-link-accessibility-enabled data-cmp-link-accessibility-text="opens in a new tab" data-cmp-data-layer-enabled data-cmp-data-layer-name="adobeDataLayer">
-        <script>
-          var dataLayerName = 'adobeDataLayer' || 'adobeDataLayer';
-          window[dataLayerName] = window[dataLayerName] || [];
-          window[dataLayerName].push({
-              page: JSON.parse("{\x22page\u002Dd77b3dbdd9\x22:{\x22@type\x22:\x22newco\/components\/page\x22,\x22repo:modifyDate\x22:\x222025\u002D06\u002D27T22:39:55Z\x22,\x22dc:title\x22:\x22Newsroom\x22,\x22dc:description\x22:\x22Company news, updates, events and the latest happenings at Amrize.\x22,\x22xdm:template\x22:\x22\/conf\/newco\/settings\/wcm\/templates\/page\u002Dcontent\x22,\x22xdm:language\x22:\x22en\x22,\x22xdm:tags\x22:[],\x22repo:path\x22:\x22\/content\/newco\/us\/en\/newsroom.html\x22}}"),
-              event:'cmp:show',
-              eventInfo: {
-                  path: 'page.page\u002Dd77b3dbdd9'
-              }
-          });
-        </script>
-        
-        
-            
-
-
-
-
-            
-<div class="root container responsivegrid">
-
-    
-    <div id="container-79e164ea9e" class="cmp-container">
-        
-
-
-<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-    
-    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
-
-
-    
-</div>
-<header class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
-<div id="experiencefragment-8abe3da8fc" class="cmp-experiencefragment cmp-experiencefragment--header">
-
-
-    
-    
-    
-    <div id="container-d6786bf766" class="cmp-container">
-        
-        <div class="header">
-
-    
-
-
-<div class="amr-sticky-header js-header is-show">
-  <header class="amr-header">
-    <div data-megamenu-close class="amr-header__topbar">
-      <div class="container fixed-container amr-header__topbar-inner">
-        <div class="arm-navigation__menu-dropdown" data-language-navigation>
-          <button type="button" data-megamenu-trigger="amrlocationselector" class="amr-lang-selector-btn" data-language-navigation-current>
-            <span>US (EN)</span>
-            <i aria-hidden="true" class="amr-header__icon amr-lang-selector-btn__icon amr-icon amr-icon-chevron-down"></i>
-          </button>
-          <div data-megamenu-target="amrlocationselector" class="amr-megamenu amr-megamenu--list amr-megamenu--list-narrow">
-            
-<nav data-cmp-data-layer="{&#34;languagenavigation-44ef07a420&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-22T23:53:32Z&#34;}}" id="languagenavigation-44ef07a420" class="cmp-languagenavigation" role="navigation">
-    <ul class="cmp-languagenavigation__group">
-        
-    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-d77b3dbdd9&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T10:22:43Z&#34;,&#34;dc:title&#34;:&#34;us&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en/newsroom.html&#34;}}">
-        
-    <a class="cmp-languagenavigation__item-link" href="newsroom.html" hreflang="en" lang="en" rel="alternate">
-        <span class="lang-key-header">
-            US (EN)
-        </span>
-        <span class="lang-key-footer">
-            United States (English)
-        </span>
-    </a>
-
-        
-    </li>
-
-    
-        
-    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-fr cmp-languagenavigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-8acf568ad5&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:47:02Z&#34;,&#34;dc:title&#34;:&#34;sadaasda&#34;,&#34;xdm:linkURL&#34;:&#34;/ca/fr/amrize-homepage.html&#34;}}">
-        
-    <a class="cmp-languagenavigation__item-link" href="../../ca/fr/amrize-homepage.html" hreflang="fr" lang="fr" rel="alternate">
-        <span class="lang-key-header">
-            CA (FR)
-        </span>
-        <span class="lang-key-footer">
-            Canada (French)
-        </span>
-    </a>
-
-        
-    </li>
-
-    </ul>
-</nav>
-
-    
-
-
-          </div>
-        </div>
-
-        <hr class="amr-header__divider"/>
-
-        <div class="amr-header__toolbar">
-          <button type="button" class="amr-header__icon amr-header__search-btn" aria-label="Search" data-toggleable-class="is-show" data-toggleable-target=".amr-searchpanel">
-            <i aria-hidden="true" class="amr-icon amr-icon-search"></i>
-          </button>
-
-          
-            
-              <a href="locations.html" class="amr-header__icon" target="_self" aria-label="Locations">
-                <i class="amr-icon amr-icon-location-pin"></i>
-              </a>
-            
-          
-          
-            
-              <a href="portals.html" class="amr-header__icon" target="_self" aria-label="Portals">
-                <i class="amr-icon amr-icon-user"></i>
-              </a>
-            
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="amr-header__navigation fixed-container">
-      <a data-megamenu-close class="arm-navigation__logo" href="amrize-homepage.html">
-        <img width="126" height="30" src="../../content/dam/newco/global/logo-amrize.svg" alt="Amrize Homepage"/>
-      </a>
-
-      <div class="arm-navigation__toggle">
-        <button class="btn-reset" type="button" aria-label="Search" data-toggleable-class="is-show" data-toggleable-target=".amr-searchpanel">
-          <i aria-hidden="true" class="amr-icon amr-icon-search"></i>
-        </button>
-
-        <button class="btn-reset js-navigation-trigger" type="button" aria-label="Toggle Menu" data-close-all>
-          <i aria-hidden="true" class="amr-icon amr-icon-bars"></i>
-          <i aria-hidden="true" class="amr-icon amr-icon-cross"></i>
-        </button>
-      </div>
-
-      <nav class="arm-navigation js-navigation">
-        <div class="arm-navigation__menu">
-          
-            
-              <a data-megamenu-trigger="Our Company" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="newsroom.html#">Our Company
-                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-              </a>
-            
-              <a data-megamenu-trigger="Our Solutions" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="newsroom.html#">Our Solutions
-                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-              </a>
-            
-              <a data-megamenu-trigger="Our Businesses" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="newsroom.html#">Our Businesses
-                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-              </a>
-            
-              <a data-megamenu-trigger="Innovation" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="newsroom.html#">Innovation
-                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-              </a>
-            
-          
-        </div>
-
-        
-          <div class="arm-navigation__menu arm-navigation__menu--secondary">
-            
+    <div class="root container responsivegrid">
+      <div id="container-79e164ea9e" class="cmp-container">
+        <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
               
-                <div class="arm-navigation__menu-dropdown">
-                  <a data-megamenu-trigger="Explore By Role" data-megamenu-list class="arm-navigation__menu-link" href="newsroom.html#">
-                    Explore By Role
-                    <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-                  </a>
-                  <div data-megamenu-target="Explore By Role" class="amr-megamenu amr-megamenu--list">
+          <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            
+          </div>
+
+          <!-- Header -->
+          <header class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            <div id="experiencefragment-8abe3da8fc" class="cmp-experiencefragment cmp-experiencefragment--header">
+              <div id="container-d6786bf766" class="cmp-container">
+                <div class="header">
+                  <div class="amr-sticky-header js-header is-show">
+                    <!-- Header -->
+                    <header class="amr-header">
+                      <div data-megamenu-close class="amr-header__topbar">
+                        <div class="container fixed-container amr-header__topbar-inner">
+                          <div class="arm-navigation__menu-dropdown" data-language-navigation>
+                            <button type="button" data-megamenu-trigger="amrlocationselector" class="amr-lang-selector-btn" data-language-navigation-current>
+                              <span>US (EN)</span>
+                              <i aria-hidden="true" class="amr-header__icon amr-lang-selector-btn__icon amr-icon amr-icon-chevron-down"></i>
+                            </button>
+                      <!-- Language Options -->
+                            <div data-megamenu-target="amrlocationselector" class="amr-megamenu amr-megamenu--list amr-megamenu--list-narrow">
+                              <nav data-cmp-data-layer="{&#34;languagenavigation-44ef07a420&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-22T23:53:32Z&#34;}}" id="languagenavigation-44ef07a420" class="cmp-languagenavigation" role="navigation">
+                                  <ul class="cmp-languagenavigation__group">   
+                                    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-06ae695d46&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:45:28Z&#34;,&#34;dc:title&#34;:&#34;us&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.amrize.com/us/en/amrize-homepage.html&#34;}}">   
+                                      <a class="cmp-languagenavigation__item-link" href="en/amrize-homepage.html" hreflang="en" lang="en" rel="alternate">
+                                          <span class="lang-key-header">
+                                              US (EN)
+                                          </span>
+                                          <span class="lang-key-footer">
+                                              United States (English)
+                                          </span>
+                                      </a> 
+                                    </li> 
+                                    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-fr cmp-languagenavigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-8acf568ad5&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:47:02Z&#34;,&#34;dc:title&#34;:&#34;sadaasda&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.amrize.com/ca/fr/amrize-homepage.html&#34;}}"> 
+                                      <a class="cmp-languagenavigation__item-link" href="../ca/fr/amrize-homepage.html" hreflang="fr" lang="fr" rel="alternate">
+                                          <span class="lang-key-header">
+                                              CA (FR)
+                                          </span>
+                                          <span class="lang-key-footer">
+                                              Canada (French)
+                                          </span>
+                                      </a>   
+                                    </li>
+
+                                  </ul>
+                              </nav>
+                            </div>
+                          </div>
+                          <hr class="amr-header__divider"/>
+                          <div class="amr-header__toolbar">
+                            <button type="button" class="amr-header__icon amr-header__search-btn" aria-label="Search" data-toggleable-class="is-show" data-toggleable-target=".amr-searchpanel">
+                              <i aria-hidden="true" class="amr-icon amr-icon-search"></i>
+                            </button>
+                                <a href="locations.html" class="amr-header__icon" target="_self" aria-label="Locations">
+                                  <i class="amr-icon amr-icon-location-pin"></i>
+                                </a>
+                                <a href="portals.html" class="amr-header__icon" target="_self" aria-label="Portals">
+                                  <i class="amr-icon amr-icon-user"></i>
+                                </a> 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="amr-header__navigation fixed-container">
+                        <a data-megamenu-close class="arm-navigation__logo" href="en.html">
+                          <img width="126" height="30" src="src/assets/logo/logo-amrize.svg" alt="Amrize Homepage"/>
+                        </a>
+                        <div class="arm-navigation__toggle">
+                          <button class="btn-reset" type="button" aria-label="Search" data-toggleable-class="is-show" data-toggleable-target=".amr-searchpanel">
+                            <i aria-hidden="true" class="amr-icon amr-icon-search"></i>
+                          </button>
+                          <button class="btn-reset js-navigation-trigger" type="button" aria-label="Toggle Menu" data-close-all>
+                            <i aria-hidden="true" class="amr-icon amr-icon-bars"></i>
+                            <i aria-hidden="true" class="amr-icon amr-icon-cross"></i>
+                          </button>
+                        </div>
+
+                        <nav class="arm-navigation js-navigation">
+                          <div class="arm-navigation__menu">
+                            <a data-megamenu-trigger="Our Company" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="en.html#">Our Company
+                              <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                            </a>
+                          
+                            <a data-megamenu-trigger="Our Solutions" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="en.html#">Our Solutions
+                              <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                            </a>
+                          
+                            <a data-megamenu-trigger="Our Businesses" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="en.html#">Our Businesses
+                              <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                            </a>
+                          
+                            <a data-megamenu-trigger="Innovation" class="arm-navigation__menu-link arm-navigation__menu-link--megamenu" href="en.html#">Innovation
+                              <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                            </a> 
+                          </div>
+                          <div class="arm-navigation__menu arm-navigation__menu--secondary">
+                            <div class="arm-navigation__menu-dropdown">
+                              <a data-megamenu-trigger="Explore By Role" data-megamenu-list class="arm-navigation__menu-link" href="en.html#">
+                                Explore By Role
+                                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                              </a>
+                              <div data-megamenu-target="Explore By Role" class="amr-megamenu amr-megamenu--list">
+                                <a href="explore-by-role/customers-business-partners.html">
+                                  Customers &amp; Business Partners</a>
+                                <a href="explore-by-role/policy-makers-public-authorities.html">
+                                  Policy Makers &amp; Public Authorities</a>
+                                <a href="explore-by-role/specifiers.html">
+                              </div>
+                            </div>
+                              <a class="arm-navigation__menu-link" href="https://investors.amrize.com/">
+                                Investors
+                                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                              </a>
+                              <a class="arm-navigation__menu-link" href="careers.html">
+                                Careers
+                                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                              </a>
+                              <a class="arm-navigation__menu-link" href="newsroom.html">
+                                Newsroom
+                                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                              </a>
+                              <a class="arm-navigation__menu-link" href="contact-us.html">
+                                Contact
+                                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                              </a>
+                              <div class="arm-navigation__menu-dropdown arm-navigation__menu-dropdown--selector" data-language-navigation>
+                                <a data-megamenu-trigger="dropdownlangsel" data-megamenu-list class="arm-navigation__menu-link" href="en.html#" data-language-navigation-current>
+                                  <span>US (EN)</span>
+                                  <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                                </a>
+                                <div data-megamenu-target="dropdownlangsel" class="amr-megamenu amr-megamenu--list">
+                                    <nav data-cmp-data-layer="{&#34;languagenavigation-44ef07a420&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-22T23:53:32Z&#34;}}" id="languagenavigation-44ef07a420" class="cmp-languagenavigation" role="navigation">
+                                      <ul class="cmp-languagenavigation__group">  
+                                        <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-06ae695d46&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:45:28Z&#34;,&#34;dc:title&#34;:&#34;us&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.amrize.com/us/en/amrize-homepage.html&#34;}}">  
+                                          <a class="cmp-languagenavigation__item-link" href="en.html" hreflang="en" lang="en" rel="alternate">
+                                            <span class="lang-key-header">
+                                                US (EN)
+                                            </span>
+                                            <span class="lang-key-footer">
+                                                United States (English)
+                                            </span>
+                                          </a>  
+                                        </li>
+                                        <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-fr cmp-languagenavigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-8acf568ad5&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:47:02Z&#34;,&#34;dc:title&#34;:&#34;sadaasda&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.amrize.com/ca/fr/amrize-homepage.html&#34;}}">  
+                                          <a class="cmp-languagenavigation__item-link" href="en.html" hreflang="fr" lang="fr" rel="alternate">
+                                            <span class="lang-key-header">
+                                                CA (FR)
+                                            </span>
+                                            <span class="lang-key-footer">
+                                                Canada (French)
+                                            </span>
+                                          </a>  
+                                        </li>
+                                      </ul>
+                                  </nav>
+                                </div>
+                              </div>
+
+                              <div class="amr-header__toolbar amr-header__toolbar--vertical">
+                                <button type="button" class="amr-header__icon amr-header__search-btn amr-header__toolbar__link" data-toggleable-target=".amr-searchpanel" data-toggleable-class="is-show">
+                                  <i aria-hidden="true" class="amr-icon amr-icon-search"></i>
+                                  <span>Search</span>
+                                </button>
+                                <a href="locations.html" class="amr-header__icon amr-header__toolbar__link" target="_self">
+                                  <i class="amr-icon amr-icon-location-pin"></i>
+                                  <span>Locations</span>
+                                </a>
+                                <a href="portals.html" class="amr-header__icon amr-header__toolbar__link" target="_self">
+                                  <i class="amr-icon amr-icon-user"></i>
+                                  <span>Portals</span>
+                                </a>
+                              </div>
+                            </div> 
+                        </nav>
+                      </div>
+                        <div class="amr-header__navigation amr-header__navigation--megamenu">
+                          <button type="button" class="amr-megamenu__back-btn btn-reset">
+                            <i aria-hidden="true" class="amr-icon amr-icon-chevron-left"></i>
+                            back
+                          </button>
+
+                          <button type="button" class="btn-reset" aria-label="close menu">
+                            <i aria-hidden="true" class="amr-icon amr-icon-cross"></i>
+                          </button>
+                        </div>
+                    </header>
+
+                    <!-- Our company dropdown -->
+                      <div data-megamenu-target="Our Company" class="amr-megamenu" tabindex="-1">
+                        <div class="fixed-container">
+                          <div class="amr-header__navigation amr-megamenu__header">
+                            <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
+                              <i class="amr-icon amr-icon-chevron-left"></i>
+                              <span>...</span>
+                            </button>
+
+                            <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
+                              <i class="amr-icon amr-icon-cross"></i>
+                            </button>
+                          </div>
+
+                          <div class="container amr-megamenu__inner js-megamenu-tab">
+                            <div class="amr-megamenu__leftpanel">
+                              <div class="amr-megamenu__leftpanel-header">
+                                <p class="amr-megamenu__heading">Our Company</p>
+                                <p class="amr-megamenu__line">The partner of choice for the builders of North America. </p>
+                                  <a href="our-company.html" class="amr-button amr-button--default">
+                                    Explore our company
+                                  </a>
+                              </div>
+                              <ul class="amr-megamenu__leftpanel-tablist">
+                                <li>
+                                  <a href="our-company.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
+                                    Overview
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-company/strategy.html" data-tab-trigger="Strategy" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
+                                    Strategy
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-company/governance.html" data-tab-trigger="Governance" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
+                                    Governance
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li> 
+                              </ul>
+                            </div>
+                            <div class="amr-megamenu__rightpanel" tabindex="-1">
+                              <div data-tab-target="Overview" class="is-show">
+                                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                  <a href="our-company.html">Overview</a>
+                                </p>
+                                <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                  <a href="our-company.html" class="amr-megamenu__rightpanel-img-link">
+                                    <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1280.jpeg" alt="Overview"/>
+                                  </a>
+                                </div>
+                              </div>
+                              
+                              <div data-tab-target="Strategy">
+                                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                  <a href="our-company/strategy.html">Strategy</a>
+                                </p>
+                                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                    <a href="our-company/strategy.html" class="amr-megamenu__rightpanel-img-link">
+                                      <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1281.jpeg" alt="Strategy"/>
+                                    </a>
+                                  </div>
+                              </div>
+                              <div data-tab-target="Governance">
+                                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                  <a href="our-company/governance.html">Governance</a>
+                                </p>
+                                <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                  <a href="our-company/governance.html" class="amr-megamenu__rightpanel-img-link">
+                                    <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1282.jpeg" alt="Governance"/>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="our-company.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
+                          Explore our company
+                        </a>
+                      </div>
+
+                    <!-- Our solution dropdown -->
+                      <div data-megamenu-target="Our Solutions" class="amr-megamenu" tabindex="-1">
+                        <div class="fixed-container">
+                          <div class="amr-header__navigation amr-megamenu__header">
+                            <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
+                              <i class="amr-icon amr-icon-chevron-left"></i>
+                              <span>...</span>
+                            </button>
+
+                            <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
+                              <i class="amr-icon amr-icon-cross"></i>
+                            </button>
+                          </div>
+
+                          <div class="container amr-megamenu__inner js-megamenu-tab">
+                            <div class="amr-megamenu__leftpanel">
+                              <div class="amr-megamenu__leftpanel-header">
+                                <p class="amr-megamenu__heading">Our Solutions</p>
+                                <p class="amr-megamenu__line">We deliver advanced building solutions from foundation to rooftop, serving customers across infrastructure, commercial and residential markets and from new build to repair and refurbishment. </p>
+                                  <a href="our-solutions.html" class="amr-button amr-button--default">
+                                    Explore our solutions
+                                  </a>
+                              </div>
+                              <ul class="amr-megamenu__leftpanel-tablist">
+                                <li>
+                                  <a href="our-solutions.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
+                                    Overview
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-solutions/infrastructure.html" data-tab-trigger="Infrastructure" class="amr-megamenu__leftpanel-tablist-link">
+                                    Infrastructure
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-solutions/commercial-solutions.html" data-tab-trigger="Commercial" class="amr-megamenu__leftpanel-tablist-link">
+                                    Commercial
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-solutions/residential-solutions.html" data-tab-trigger="Residential" class="amr-megamenu__leftpanel-tablist-link">
+                                    Residential
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-solutions/repair-and-refurbishment.html" data-tab-trigger="Repair &amp; Refurbishment" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
+                                    Repair &amp; Refurbishment
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-solutions/projects.html" data-tab-trigger="Projects" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
+                                    Projects
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="amr-megamenu__rightpanel" tabindex="-1">
+                                <div data-tab-target="Overview" class="is-show">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-solutions.html">Overview</a>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                      <a href="our-solutions.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1283.jpeg" alt="Overview"/>
+                                      </a>
+                                    </div>
+                                </div>
+                              <!-- Infrastructure -->
+                                <div data-tab-target="Infrastructure">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                      <a href="our-solutions/infrastructure.html">Infrastructure</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--2">
+                                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-solutions/infrastructure.html">
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Infrastructure
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/infrastructure/transportation-infrastructure.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1284.jpeg" alt="Transportation"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Transportation
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/infrastructure/public-works-infrastructure.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1285.jpeg" alt="Public Works"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Public Works
+                                        </span>
+                                      </a>
+                                    </div>
+                                </div>
+                              <!-- Commercial -->
+                                <div data-tab-target="Commercial">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-solutions/commercial-solutions.html">Commercial</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--3">
+                                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-solutions/commercial-solutions.html">
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Commercial
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/commercial-solutions/institutional-solutions.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1286.jpeg" alt="Institutional"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Institutional
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/commercial-solutions/industrial-facilities.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1287.jpeg" alt="Industrial"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Industrial
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/commercial-solutions/general-building.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1288.jpeg" alt="General Building"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          General Building
+                                        </span>
+                                      </a>
+                                    </div>
+                                </div>
+                              <!-- Residential -->
+                                <div data-tab-target="Residential">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                      <a href="our-solutions/residential-solutions.html">Residential</a>
+                                  </p>
+                                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--3">
+                                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-solutions/residential-solutions.html">
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Residential
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/residential-solutions/single-family-homes.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1289.jpeg" alt="Single-Family Housing"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Single-Family Housing
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/residential-solutions/multi-family-housing.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1290.jpeg" alt="Multi-Family Housing"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Multi-Family Housing
+                                        </span>
+                                      </a>
+                                      <a href="our-solutions/residential-solutions/high-rise.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1291.jpeg" alt="High Rise"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          High Rise
+                                        </span>
+                                      </a> 
+                                  </div>
+                                </div>
+                              <!-- Refurbishment -->
+                                <div data-tab-target="Repair &amp; Refurbishment">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-solutions/repair-and-refurbishment.html">Repair &amp; Refurbishment</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                      <a href="our-solutions/repair-and-refurbishment.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1292.jpeg" alt="Repair &amp; Refurbishment"/>
+                                      </a>
+                                    </div>
+                                </div>
+                              
+                                <div data-tab-target="Projects">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-solutions/projects.html">Projects</a>
+                                  </p>
+                                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                      <a href="our-solutions/projects.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1293.jpeg" alt="Projects"/>
+                                      </a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="our-solutions.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
+                          Explore our solutions
+                        </a>
+                      </div>
+                    <!-- Our Business -->
+                      <div data-megamenu-target="Our Businesses" class="amr-megamenu" tabindex="-1">
+                        <div class="fixed-container">
+                          <div class="amr-header__navigation amr-megamenu__header">
+                            <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
+                              <i class="amr-icon amr-icon-chevron-left"></i>
+                              <span>...</span>
+                            </button>
+
+                            <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
+                              <i class="amr-icon amr-icon-cross"></i>
+                            </button>
+                          </div>
+
+                          <div class="container amr-megamenu__inner js-megamenu-tab">
+                            <div class="amr-megamenu__leftpanel">
+                              <div class="amr-megamenu__leftpanel-header">
+                                <p class="amr-megamenu__heading">Our Businesses</p>
+                                <p class="amr-megamenu__line">With over 100 years of experience and 1,000+ sites across North America, we deliver advanced building materials and building envelope solutions from foundation to rooftop.</p>
+                                  <a href="our-businesses.html" class="amr-button amr-button--default">
+                                    Explore our businesses
+                                  </a>
+                              </div>
+                              <ul class="amr-megamenu__leftpanel-tablist">
+                                <li>
+                                  <a href="our-businesses.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
+                                    Overview
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-businesses/building-materials.html" data-tab-trigger="Building Materials" class="amr-megamenu__leftpanel-tablist-link">
+                                    Building Materials
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-businesses/building-envelope.html" data-tab-trigger="Building Envelope" class="amr-megamenu__leftpanel-tablist-link">
+                                    Building Envelope
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-businesses/resources.html" data-tab-trigger="Resources" class="amr-megamenu__leftpanel-tablist-link">
+                                    Resources
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="our-businesses/distribution-and-logistics.html" data-tab-trigger="Distribution &amp; Logistics" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
+                                    Distribution &amp; Logistics
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="amr-megamenu__rightpanel" tabindex="-1">
+                                <div data-tab-target="Overview" class="is-show">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-businesses.html">Overview</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                      <a href="our-businesses.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1279.jpeg" alt="Overview"/>
+                                      </a>
+                                    </div> 
+                                </div>
+                              
+                                <div data-tab-target="Building Materials">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-businesses/building-materials.html">Building Materials</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--4">
+                                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-businesses/building-materials.html">
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Building Materials
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-materials/cement.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1294.jpeg" alt="Cement"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Cement
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-materials/aggregates.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1295.jpeg" alt="Aggregates"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Aggregates
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-materials/concrete.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1296.jpeg" alt="Concrete"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Concrete
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-materials/asphalt.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/nav_asphalt.jpg" alt="Asphalt"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Asphalt
+                                        </span>
+                                      </a>
+                                    </div> 
+                                </div>
+                              
+                                <div data-tab-target="Building Envelope">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-businesses/building-envelope.html">Building Envelope</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--5">
+                                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-businesses/building-envelope.html">
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Building Envelope
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-envelope/commercial-roofing.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1297.jpeg" alt="Commercial Roofing"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Commercial Roofing
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-envelope/residential-roofing.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1298.jpeg" alt="Residential Roofing"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Residential Roofing
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-envelope/insulation.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1299.jpeg" alt="Insulation"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Insulation
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-envelope/weatherization.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1300.jpeg" alt="Weatherization"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Weatherization
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/building-envelope/adhesives-and-sealants.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1301.jpeg" alt="Adhesives &amp; Sealants"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Adhesives &amp; Sealants
+                                        </span>
+                                      </a> 
+                                    </div> 
+                                </div>
+                              
+                                <div data-tab-target="Resources">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                      <a href="our-businesses/resources.html">Resources</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--3">
+                                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-businesses/resources.html">
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Resources
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/resources/digital-solutions.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1302.jpeg" alt="Digital Solutions"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Digital Solutions
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/resources/document-library.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1303.jpeg" alt="Document Library"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Document Library
+                                        </span>
+                                      </a>
+                                      <a href="our-businesses/resources/product-brand-catalog.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1304.jpeg" alt="Product &amp; Brand Catalog"/>
+                                        <span class="amr-megamenu__rightpanel-img-title">
+                                          Product &amp; Brand Catalog
+                                        </span>
+                                      </a> 
+                                    </div> 
+                                </div>
+                              
+                                <div data-tab-target="Distribution &amp; Logistics">
+                                  <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                    <a href="our-businesses/distribution-and-logistics.html">Distribution &amp; Logistics</a>
+                                  </p>
+                                    <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                      <a href="our-businesses/distribution-and-logistics.html" class="amr-megamenu__rightpanel-img-link">
+                                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1305.jpeg" alt="Distribution &amp; Logistics"/>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="our-businesses.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
+                          Explore our businesses
+                        </a>
+                      </div>
+                    <!-- Innovation -->
+                      <div data-megamenu-target="Innovation" class="amr-megamenu" tabindex="-1">
+                        <div class="fixed-container">
+                          <div class="amr-header__navigation amr-megamenu__header">
+                            <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
+                              <i class="amr-icon amr-icon-chevron-left"></i>
+                              <span>...</span>
+                            </button>
+                            <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
+                              <i class="amr-icon amr-icon-cross"></i>
+                            </button>
+                          </div>
+
+                          <div class="container amr-megamenu__inner js-megamenu-tab">
+                            <div class="amr-megamenu__leftpanel">
+                              <div class="amr-megamenu__leftpanel-header">
+                                <p class="amr-megamenu__heading">Innovation</p>
+                                <p class="amr-megamenu__line">We bring innovation to everything we do, harnessing a broad range of technologies, advanced materials and open innovation ecosystems to make every build better. ​</p>
+                                  <a href="innovation.html" class="amr-button amr-button--default">
+                                    Explore our innovations
+                                  </a>
+                              </div>
+                              <ul class="amr-megamenu__leftpanel-tablist">
+                                <li>
+                                  <a href="innovation.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
+                                    Overview
+                                    <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
+                                  </a>
+                                </li> 
+                              </ul>
+                            </div>
+
+                            <div class="amr-megamenu__rightpanel" tabindex="-1">
+                              <div data-tab-target="Overview" class="is-show">
+                                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
+                                  <a href="innovation.html">Overview</a>
+                                </p>
+                                <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
+                                  <a href="innovation.html" class="amr-megamenu__rightpanel-img-link">
+                                    <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="src/assets/img/cq5dam.web.1280.1306.jpeg" alt="Overview"/>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="innovation.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
+                          Explore our innovations
+                        </a>
+                      </div>
                     
-                      
-                        <a href="explore-by-role/customers-business-partners.html">
-                          Customers &amp; Business Partners</a>
-                      
-                    
-                      
-                        <a href="explore-by-role/policy-makers-public-authorities.html">
-                          Policy Makers &amp; Public Authorities</a>
-                      
-                    
-                      
-                        <a href="explore-by-role/specifiers.html">
-                          Specifiers</a>
-                      
-                    
+                    <!-- Search Form -->
+                    <form action="https://www.amrize.com/us/en/search.html" method="get" class="amr-searchpanel" data-global-search data-search-result-page-url="https://www.amrize.com/us/en/search.html" data-search-url="https://www.amrize.com/us/en/amrize-homepage.html" onsubmit="return this.querySelector('.js-search-input').value.trim() !== ''">
+                      <button class="amr-searchpanel__close" type="button" aria-label="Close" data-toggleable-class="is-show" data-toggleable-target=".amr-searchpanel">
+                        <i aria-label="true" class="amr-icon amr-icon-cross"></i>
+                      </button>
+                      <div class="amr-searchpanel__field-label">
+                        <button type="submit" class="amr-searchpanel__field-submit">
+                          <span class="screen-reader-only">Search</span>
+                          <i class="amr-icon amr-icon-search" aria-hidden="true"></i>
+                        </button>
+                        <label>
+                          <input data-global-search-input class="amr-searchpanel__field js-search-input" type="text" placeholder="Search" name="q"/>
+                          <span class="screen-reader-only">Search</span>
+                        </label>
+                      </div>
+                      <div data-global-search-suggestion-container class="amr-searchpanel__suggestions-container">
+                        <p class="amr-searchpanel__title">
+                          Search
+                        </p>
+                        <div data-global-search-suggestion class="amr-searchpanel__suggestions"></div>
+                      </div>
+                    </form>
                   </div>
                 </div>
-              
+              </div>
+            </div>  
+          </header>
 
-              
-            
-              
+          <div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
 
-              
-                <a class="arm-navigation__menu-link" href="https://investors.amrize.com/">
-                  Investors
-                  <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-                </a>
-              
-            
-              
+          </div>
 
-              
-                <a class="arm-navigation__menu-link" href="careers.html">
-                  Careers
-                  <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-                </a>
-              
-            
-              
+          <main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+            <div id="container-85bdfb1344" class="cmp-container">
+              <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+                  <div id="container-c2763af17b" class="cmp-container">
+                    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                      
+                      <!-- Hero -->
+                      <div class="hero aem-GridColumn aem-GridColumn--default--12">
+                        <div class="amr-hero fixed-container amr-hero--bleed bg-dark-gradient">
+                          
+                          <div class="amr-breadcrumb amr-breadcrumb--desktop-white">
+                            <nav id="breadcrumb-05ee89092c" class="cmp-breadcrumb" aria-label="Breadcrumb" data-cmp-data-layer="{&#34;breadcrumb-05ee89092c&#34;:{&#34;@type&#34;:&#34;newco/components/breadcrumb&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-27T22:39:55Z&#34;}}" role="navigation">
+                              <ol class="cmp-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+                                <li class="cmp-breadcrumb__item" data-cmp-data-layer="{&#34;breadcrumb-05ee89092c-item-ad8c8272fa&#34;:{&#34;@type&#34;:&#34;newco/components/breadcrumb/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:48:02Z&#34;,&#34;dc:title&#34;:&#34;Amrize&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en.html&#34;}}" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                                  <a class="cmp-breadcrumb__item-link" itemprop="item" data-cmp-clickable href="../en.html">
+                                    <span itemprop="name">Amrize</span>
+                                  </a>
+                                  <meta itemprop="position" content="1"/>
+                                </li>
+                                <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" aria-current="page" data-cmp-data-layer="{&#34;breadcrumb-05ee89092c-item-d77b3dbdd9&#34;:{&#34;@type&#34;:&#34;newco/components/breadcrumb/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T10:22:43Z&#34;,&#34;dc:title&#34;:&#34;Newsroom&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en/newsroom.html&#34;}}" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                                  <span itemprop="name">Newsroom</span>
+                                  <meta itemprop="position" content="2"/>
+                                </li>
+                              </ol>
+                            </nav>
+                          </div>
+                          
+                          <div class="amr-hero__wrapper">
+                            <div>
+                              <h1 class="amr-hero__heading amr-hero__heading--desktop-white amr-hero__heading--mobile-navy ">Our Latest News and Updates</h1>
+                            </div>
+                            <div class="amr-hero__content">
+                              <div class="amr-hero__image" role="presentation">
+                                <div data-cmp-is="image" id="image-10292682b6" data-cmp-hook-image="imageV3" class="cmp-image" itemscope>
+                                  <img src="src/assets/img/newsroom/lincoln_memorial.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="2880" height="1536" alt/>
+                                  <span class="cmp-image__title" itemprop="caption">Lincoln Memorial, Washington, D.C.</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-              
-                <a class="arm-navigation__menu-link" href="newsroom.html">
-                  Newsroom
-                  <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-                </a>
-              
-            
-              
+                        <div id="playVideoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1" style="display: none;">
+                          <div class="modal-content">
+                            <button id="closeModal" class="close" aria-label="Close modal">&times;</button>
+                            <iframe id="youtubeVideo" class="responsive-video" height="100%" width="100%" src="newsroom.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;" allowfullscreen>
+                            </iframe>
+                          </div>
+                        </div>
+                      </div>
 
-              
-                <a class="arm-navigation__menu-link" href="contact-us.html">
-                  Contact
-                  <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-                </a>
-              
-            
+                      <!-- Company news -->
+                      <div class="contentrichtext aem-GridColumn aem-GridColumn--default--12">
+                        <div>
+                          <div class="amr-contentrichtext amr-contentrichtext--">
+                            <div class="amr-contentrichtext__wrapper">
+                              <div class="amr-contentrichtext__text">
+                                  <h3 style="	text-align: left;">
+                                  <span class="text-navy">Company News</span></h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Company news sorting -->
+                      <div class="listing-news aem-GridColumn aem-GridColumn--default--12">
+                        <script>
+                          (function () {
+                            window.app = {};
+                            window.app.amrize = {};
+                            window.app.amrize.news = {};
 
-            <div class="arm-navigation__menu-dropdown arm-navigation__menu-dropdown--selector" data-language-navigation>
-              <a data-megamenu-trigger="dropdownlangsel" data-megamenu-list class="arm-navigation__menu-link" href="newsroom.html#" data-language-navigation-current>
-                <span>US (EN)</span>
-                <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-              </a>
+                            const rawList = '[{"title":"Building the Future: 10 Things to Know About Amrize","path":"https://www.amrize.com/us/en/newsroom/building-the-future--10-things-to-know-about-amrize.html","date":1751518800000,"formattedDate":"July 03, 2025","tags":["feature-story"]},{"title":"Launching a company—with 19,000 founders","path":"https://www.amrize.com/us/en/newsroom/launching-a-company-with-19-000-founders.html","date":1751432400000,"formattedDate":"July 02, 2025","tags":["feature-story"]},{"title":"Amrize Rings In New Era: A look back at NYSE listing day—and ahead to what’s next","path":"https://www.amrize.com/us/en/newsroom/amrize-rings-in-new-era.html","date":1751346000000,"formattedDate":"July 01, 2025","tags":["feature-story"]},{"title":"Amrize Debuts as Independent, Publicly Traded Company","path":"https://www.amrize.com/us/en/newsroom/amrize-debuts-as-independent--publicly-traded-company.html","date":1750654800000,"formattedDate":"June 23, 2025","tags":["media-release"]},{"title":"Holcim Plans Amrize Spin-off for June 23","description":"News release about Holcim receiving key approvals to complete the 100% spin-off of its North American business to be named Amrize.","path":"https://www.amrize.com/us/en/newsroom/holcim-plans-amrize-spin-off.html","date":1748847600000,"formattedDate":"June 02, 2025","tags":["ad-hoc"]},{"title":"Holcim Shareholders Approve All Proposals","description":"News release about Holcim shareholder approval of all Board of Directors’ proposals at the 2025 Annual General Meeting.","path":"https://www.amrize.com/us/en/newsroom/holcim-shareholders-approve-all-proposals.html","date":1747191600000,"formattedDate":"May 14, 2025","tags":["media-release"]},{"title":"Amrize Updates Form 10 With First Quarter Financials","description":"News release about Amrize’s completion of another step toward the planned spin-off from Holcim with the update of its Form 10 Registration Statement.","path":"https://www.amrize.com/us/en/newsroom/amrize-updates-form-10-with-first-quarter-financials.html","date":1746586800000,"formattedDate":"May 07, 2025","tags":["ad-hoc"]},{"title":"Amrize Completes Bond Offering Ahead Of Planned Spin-Off","description":"News release about Amrize’s successful completion of a $3.4 billion bond offering reflecting strong investor interest in the future company.","path":"https://www.amrize.com/us/en/newsroom/amrize-completes-bond-offering-ahead-of-planned-spin-off.html","date":1743994800000,"formattedDate":"April 07, 2025","tags":["media-release"]},{"title":"Amrize To Deliver Next Phase Of Value Creation As Standalone Company","description":"News release about Amrize presenting its business, growth strategy, capital allocation priorities and mid-term financial targets at its investor day in New York.","path":"https://www.amrize.com/us/en/newsroom/amrize-to-deliver-next-phase.html","date":1742886000000,"formattedDate":"March 25, 2025","tags":["ad-hoc"]},{"title":"Amrize Form 10 Publicly Filed With U.S. Securities And Exchange Commission For Planned Spin-Off","description":"News release about Amrize filing its Form 10 Registration Statement with the U.S. Securities and Exchange Commission.","path":"https://www.amrize.com/us/en/newsroom/amrize-form-10-publicly-filed-with-us-securities-and-exchange-commission-for-planned-spin-off.html","date":1740729600000,"formattedDate":"February 28, 2025","tags":["ad-hoc"]},{"title":"Holcim’s North America Business To Be Named Amrize Following Planned Spin-Off","description":"News release about the newly announced company, Amrize.","path":"https://www.amrize.com/us/en/newsroom/holcim-s-north-america-business-amrize.html","date":1740124800000,"formattedDate":"February 21, 2025","tags":["media-release"]},{"title":"Holcim Appoints Board And CEO","description":"News release about Holcim appointing a Board and CEO for its planned North American company","path":"https://www.amrize.com/us/en/newsroom/holcim-appoints-board-and-ceo.html","date":1736496000000,"formattedDate":"January 10, 2025","tags":["ad-hoc"]},{"title":"Planned Spin-Off Of Holcim’s North American Business Expected To Occur In H1 2025","description":"News release about how Holcim is progressing on the planned full capital market separation of its North American business.","path":"https://www.amrize.com/us/en/newsroom/planned-spin-off-of-holcim-s-north-american-business-expected-to.html","date":1733472000000,"formattedDate":"December 06, 2024","tags":["ad-hoc"]},{"title":"Holcim Intends To List Its North American Business In The U.S.","description":"News release about Holcim announcing its intent to list its North American business in the U.S. with a full capital market separation.","path":"https://www.amrize.com/us/en/newsroom/holcim-intends-to-list-its-north-american-business-in-the-us.html","date":1706428800000,"formattedDate":"January 28, 2024","tags":["ad-hoc"]}]';
+                            const safeList = rawList.replace(/[\r\n]+/g, " ");
+                            window.app.amrize.news.list = JSON.parse(safeList);
 
-              <div data-megamenu-target="dropdownlangsel" class="amr-megamenu amr-megamenu--list">
-                
-<nav data-cmp-data-layer="{&#34;languagenavigation-44ef07a420&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-22T23:53:32Z&#34;}}" id="languagenavigation-44ef07a420" class="cmp-languagenavigation" role="navigation">
-    <ul class="cmp-languagenavigation__group">
-        
-    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-d77b3dbdd9&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T10:22:43Z&#34;,&#34;dc:title&#34;:&#34;us&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en/newsroom.html&#34;}}">
-        
-    <a class="cmp-languagenavigation__item-link" href="newsroom.html" hreflang="en" lang="en" rel="alternate">
-        <span class="lang-key-header">
-            US (EN)
-        </span>
-        <span class="lang-key-footer">
-            United States (English)
-        </span>
-    </a>
+                            const rawNewsTypes =
+                              '{"media-release":"Media Release","feature-story":"Feature Story","ad-hoc":"Ad Hoc Release"}';
+                            const safeNewsTypes = rawNewsTypes.replace(/[\r\n]+/g, " ");
+                            window.app.amrize.news.newsTypes = JSON.parse(safeNewsTypes);
 
-        
-    </li>
+                            window.app.amrize.news.properties = {
+                              listingLimit: "6",
+                              sortbylabel: "Sort By:",
+                              sortbylabelasc: "A to Z",
+                              sortbylabeldesc: "Z to A",
+                              resultsLabel: "Results",
+                              all: "All",
+                            };
+                          })();
+                        </script>
 
-    
-        
-    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-fr cmp-languagenavigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-44ef07a420-item-8acf568ad5&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:47:02Z&#34;,&#34;dc:title&#34;:&#34;sadaasda&#34;,&#34;xdm:linkURL&#34;:&#34;/ca/fr/amrize-homepage.html&#34;}}">
-        
-    <a class="cmp-languagenavigation__item-link" href="../../ca/fr/amrize-homepage.html" hreflang="fr" lang="fr" rel="alternate">
-        <span class="lang-key-header">
-            CA (FR)
-        </span>
-        <span class="lang-key-footer">
-            Canada (French)
-        </span>
-    </a>
+                        <div class="amr-listing-product-brands" data-tag-filter3>
+                          <div class="amr-listing-product-brands-filter">
+                            
+                            <div class="amr-listing-product-brands-filter__item">
+                              <div class="custom-select-container">
+                                <label id="news-label" class="screen-reader-only" for="product-select">
+                                  All
+                                </label>
 
-        
-    </li>
+                                <div class="custom-select-box" id="news-select" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="news-label" tabindex="0" data-target="news" data-tag-filter-input>
+                                  <div class="select-placeholder">All</div>
+                                  <div class="selected-count" aria-live="polite" aria-atomic="true"></div>
+                                  <div class="select-arrow" aria-hidden="true">
+                                    <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                                  </div>
+                                </div>
 
-    </ul>
-</nav>
+                                <div aria-label="portfolio" class="dropdown-menu" data-for="news" role="listbox" aria-multiselectable="true" hidden>
+                                  <div class="dropdown-options"></div>
+                                </div>
+                              </div>
+                            </div>
 
-    
+                            <label class="amr-listing-product-brands-filter__select amr-listing-product-brands-filter__select--wrapper amr-listing-product-brands-filter__item amr-listing-product-brands-filter__item--auto">
+                              <span>Sort By:</span>
+                              <select data-sortby class="amr-listing-product-brands-filter__select--ghost">
+                                <option value="asc">A to Z</option>
+                                <option value="desc">Z to A</option>
+                                <option value="dateasc">Date (Ascending)</option>
+                                <option value="datedesc" selected>
+                                  Date (Descending)
+                                </option>
+                              </select>
+                            </label>
+                          </div>
+
+                          <p class="amr-listing-product-brands-results" data-results-label></p>
+
+                          <div class="amr-listing-product-brands__listing" data-listing-container>
+
+                          </div>
+                          <div class="amr-pagination" data-listing-pagination>
+                            <div class="amr-pagination__page-item">
+                              <button type="button" class="amr-pagination__page-link amr-pagination__page-link--prev" aria-label="Previous" disabled>
+                                <i class="amr-icon amr-icon-chevron-left" aria-hidden="true"></i>
+                              </button>
+                            </div>
+
+                            <div class="amr-pagination__item-wrapper"></div>
+
+                            <div class="amr-pagination__page-item">
+                              <button type="button" class="amr-pagination__page-link amr-pagination__page-link--next" aria-label="Next">
+                                <i class="amr-icon amr-icon-chevron-right" aria-hidden="true"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="contentrichtext aem-GridColumn aem-GridColumn--default--12">
+                        <div>
+                          <div class="amr-contentrichtext amr-contentrichtext--">
+                            <div class="amr-contentrichtext__wrapper">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
 
+                      <!-- Subscribe -->
+                      <div class="cta-ribbon aem-GridColumn aem-GridColumn--default--12">
+                        <div class="amr-cta-ribbon">
+                          <div class="amr-cta-ribbon__wrapper bg-blue">
+                            <div class="amr-cta-ribbon__title" tabindex="0">
+                              Get the latest news and updates directly to your inbox
+                            </div>
+                            <a href="contact-us/newsletter-signup.html" class="amr-button amr-button--white amr-button--icon amr-cta-ribbon__cta" target="_self" aria-label="Subscribe">
+                              <i aria-hidden="true" class="amr-icon amr-icon-email"></i>
+                              Subscribe
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Media library -->
+                      <div class="signpostboxes aem-GridColumn aem-GridColumn--default--12">
+                        <div class="amr-signposts-boxes">
+                          <h3 class="amr-signposts-boxes__heading">
+                            Media Library
+                          </h3>
+                          <div class="amr-signpost-card-grid__grid">
+                            <a href="our-businesses/resources/media-library.html#logos-anchor" target="_self" class="amr-signpost-card-grid__grid-item fade-slide-up zoom-in-on-hover animate-in" style="animation-delay: 0.4s;">
+                              <div class="amr-signpost-card-grid__grid-img">
+                                <div data-cmp-is="image" id="image-1e0f17dbb9" data-cmp-hook-image="imageV3" class="cmp-image" itemscope="">
+                                  <img src="src/assets/img/newsroom/amrize.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="824" height="464" alt="Amrize logo">
+                                </div>
+                              </div>
+                                Logos
+                            </a>
+                            <a href="our-businesses/resources/media-library.html#b-roll-anchor" target="_self" class="amr-signpost-card-grid__grid-item fade-slide-up zoom-in-on-hover animate-in" style="animation-delay: 0.4s;">
+                              <div class="amr-signpost-card-grid__grid-img">
+                                <div data-cmp-is="image" id="image-1e0f17dbb9" data-cmp-hook-image="imageV3" class="cmp-image" itemscope="">
+                                  <img src="src/assets/img/newsroom/b_roll.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="824" height="464" alt="Amrize logo">
+                                </div>
+                              </div>
+                              B-Roll
+                            </a>
+                            <a href="our-businesses/resources/media-library.html#operations-anchor" target="_self" class="amr-signpost-card-grid__grid-item fade-slide-up zoom-in-on-hover animate-in" style="animation-delay: 0.4s;">
+                              <div class="amr-signpost-card-grid__grid-img">
+                                <div data-cmp-is="image" id="image-1e0f17dbb9" data-cmp-hook-image="imageV3" class="cmp-image" itemscope="">
+                                  <img src="src/assets/img/newsroom/operations.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="824" height="464" alt="Amrize logo">
+                                </div>
+                              </div>
+                              Operations
+                            </a>
+                            <a href="our-businesses/resources/media-library.html#project-images-anchor" target="_self" class="amr-signpost-card-grid__grid-item fade-slide-up zoom-in-on-hover animate-in" style="animation-delay: 0.4s;">
+                              <div class="amr-signpost-card-grid__grid-img">
+                                <div data-cmp-is="image" id="image-1e0f17dbb9" data-cmp-hook-image="imageV3" class="cmp-image" itemscope="">
+                                  <img src="src/assets/img/newsroom/images.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="824" height="464" alt="Amrize logo">
+                                </div>
+                              </div>
+                              Images
+                            </a>
+                            <a href="our-businesses/resources/media-library.html#leadershipImages-anchor" target="_self" class="amr-signpost-card-grid__grid-item fade-slide-up zoom-in-on-hover animate-in" style="animation-delay: 0.4s;">
+                              <div class="amr-signpost-card-grid__grid-img">
+                                <div data-cmp-is="image" id="image-1e0f17dbb9" data-cmp-hook-image="imageV3" class="cmp-image" itemscope="">
+                                  <img src="src/assets/img/newsroom/leadership.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="824" height="464" alt="Amrize logo">
+                                </div>
+                              </div>
+                              Leadership
+                            </a>
+                            <a href="our-businesses/resources/media-library.html" target="_self" class="amr-signpost-card-grid__grid-item fade-slide-up zoom-in-on-hover animate-in" style="animation-delay: 0.4s;">
+                              <div class="amr-signpost-card-grid__grid-img">
+                                <div data-cmp-is="image" id="image-1e0f17dbb9" data-cmp-hook-image="imageV3" class="cmp-image" itemscope="">
+                                  <img src="src/assets/img/newsroom/full_library.webp" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="824" height="464" alt="Amrize logo">
+                                </div>
+                              </div>
+                              Full Library
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="separator amr-separator--vs-sm amr-separator--line-blue aem-GridColumn aem-GridColumn--default--12">
+                        <div class="cmp-separator">
+                          <hr class="cmp-separator__horizontal-rule"/>
+                        </div>
+                      </div>
+                      
+                      <div class="contentrichtext aem-GridColumn aem-GridColumn--default--12">
+                        <div>
+                          <div class="amr-contentrichtext amr-contentrichtext--default">
+                            <div class="amr-contentrichtext__wrapper">
+                              <div class="amr-contentrichtext__text">
+                                <p> </p>
+                                <h3><span class="text-navy">Media Contact</span></h3>
+                                <p> </p>
+                                <p>Members of the media can contact us at:</p>
+                                <p> </p>
+                                <p><a href="mailto:media&#64;amrize.com">media&#64;amrize.com</a></p>
+                                <p>&#43;1 773-676-4981</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </main>
 
-            <div class="amr-header__toolbar amr-header__toolbar--vertical">
-              <button type="button" class="amr-header__icon amr-header__search-btn amr-header__toolbar__link" data-toggleable-target=".amr-searchpanel" data-toggleable-class="is-show">
-                <i aria-hidden="true" class="amr-icon amr-icon-search"></i>
-                <span>Search</span>
-              </button>
+           <!-- Footer -->
+          <footer class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            <div id="experiencefragment-ac0dab292c" class="cmp-experiencefragment cmp-experiencefragment--footer">
+              <div id="container-6e5d5a2f0f" class="cmp-container">
+                <div class="footer">
+                  <div class="amr-footer fixed-container">
+                    <a class="amr-footer__logo" href="en.html">
+                      <img src="src/assets/img/footer/Amrize_tagline_h_w.png" alt="Amrize Homepage"/>
+                    </a>
+                    <div class="amr-footer__content">
+                      <div class="amr-footer__content__main">
 
-              
-                
-                  <a href="locations.html" class="amr-header__icon amr-header__toolbar__link" target="_self">
-                    <i class="amr-icon amr-icon-location-pin"></i>
-                    <span>Locations</span>
-                  </a>
-                
-              
-              
-                
-                  <a href="portals.html" class="amr-header__icon amr-header__toolbar__link" target="_self">
-                    <i class="amr-icon amr-icon-user"></i>
-                    <span>Portals</span>
-                  </a>
-                
-              
+                        <section class="amr-footer__content__section-connect">
+                          <h5 class="amr-footer__content__section-title">Connect</h5>
+                          <ul>
+                            <li>
+                              <a href="contact-us.html">Contact us</a>
+                            </li>
+                            <li>
+                              <a href="locations.html">Find a location</a>
+                            </li>
+                          </ul>
+                        </section>
+
+                        <section class="amr-footer__content__section-social">
+                          <h5 class="amr-footer__content__section-title">
+                            Social
+                          </h5>
+                          <ul class="social-links">
+                            <li>
+                              <a href="https://www.linkedin.com/company/amrize" target="_blank">
+                                <i class="amr-icon amr-icon-linkedin" aria-hidden="true"></i>
+                                LinkedIn
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.instagram.com/amrize" target="_blank">
+                                <i class="amr-icon amr-icon-instagram" aria-hidden="true"></i>
+                                Instagram
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.facebook.com/amrize.ltd" target="_blank">
+                                <i class="amr-icon amr-icon-facebook" aria-hidden="true"></i>
+                                Facebook
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://x.com/amrize" target="_blank">
+                                <i class="amr-icon amr-icon-x" aria-hidden="true"></i>
+                                X
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/@AmrizeLtd" target="_blank">
+                                <i class="amr-icon amr-icon-youtube" aria-hidden="true"></i>
+                                YouTube
+                              </a>
+                            </li>
+                          </ul>
+                        </section>
+                        <section class="amr-footer__content__section-terms">
+                          <h5 class="amr-footer__content__section-title">
+                            Terms &amp; Policies
+                          </h5>
+                          <ul>
+                            <li>
+                              <a href="privacy-notice.html">Privacy Notice</a>
+                            </li>
+                            <li>
+                              <a href="accessibility-statement.html">Accessibility Statement</a>
+                            </li>
+                            <li>
+                              <a href="terms-of-use.html">Terms of Use</a>
+                            </li>
+                            <li>
+                              <a href="cookie-policy.html">Cookie Policy</a>
+                            </li>
+                            <li>
+                              <a href="code-of-conduct.html">Code of Conduct</a>
+                            </li>
+                          </ul>
+                        </section>
+                      </div>
+
+                      <div class="separator">
+                        <hr class="amr-footer__horizontal-rule"/>
+                      </div>
+
+                      <section class="amr-footer__content__section-utility">
+                        <div class="copyright-text">
+                          <span>© Amrize 2025</span>
+                        </div>
+                        <ul class="utility-menu">
+                            <li>
+                              <a href="legal-mentions.html">Legal mentions</a>
+                            </li>
+                        </ul>
+                        <div class="language-selector js-langselector-dropdown" data-language-navigation>
+                          <button type="button" class="amr-footer__langselector" data-language-navigation-current data-toggleable-class="is-open" data-close-outside data-toggleable-target=".js-langselector-dropdown">
+                            <i class="amr-icon amr-icon-web" aria-hidden="true"></i>
+                            <span>United States (English)</span>
+                            <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
+                          </button>
+                          <nav data-cmp-data-layer="{&#34;languagenavigation-daceed50f7&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-22T18:47:25Z&#34;}}" id="languagenavigation-daceed50f7" class="cmp-languagenavigation" role="navigation">
+                            <ul class="cmp-languagenavigation__group">
+                              <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-daceed50f7-item-06ae695d46&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:45:28Z&#34;,&#34;dc:title&#34;:&#34;us&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.amrize.com/us/en/amrize-homepage.html&#34;}}">
+                                <a class="cmp-languagenavigation__item-link" href="en.html" hreflang="en" lang="en" rel="alternate">
+                                  <span class="lang-key-header">US (EN)</span>
+                                  <span class="lang-key-footer">
+                                      United States (English)
+                                  </span>
+                                </a>
+                              </li>    
+                              <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-fr cmp-languagenavigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-daceed50f7-item-8acf568ad5&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:47:02Z&#34;,&#34;dc:title&#34;:&#34;sadaasda&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.amrize.com/ca/fr/amrize-homepage.html&#34;}}">
+                                <a class="cmp-languagenavigation__item-link" href="../ca/fr/amrize-homepage.html" hreflang="fr" lang="fr" rel="alternate">
+                                  <span class="lang-key-header">CA (FR)</span>
+                                  <span class="lang-key-footer">
+                                      Canada (French)
+                                  </span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        
-      </nav>
-    </div>
-
-    <div class="amr-header__navigation amr-header__navigation--megamenu">
-      <button type="button" class="amr-megamenu__back-btn btn-reset">
-        <i aria-hidden="true" class="amr-icon amr-icon-chevron-left"></i>
-        back
-      </button>
-
-      <button type="button" class="btn-reset" aria-label="close menu">
-        <i aria-hidden="true" class="amr-icon amr-icon-cross"></i>
-      </button>
-    </div>
-  </header>
-
-  
-    <div data-megamenu-target="Our Company" class="amr-megamenu" tabindex="-1">
-      <div class="fixed-container">
-        <div class="amr-header__navigation amr-megamenu__header">
-          <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
-            <i class="amr-icon amr-icon-chevron-left"></i>
-            <span>...</span>
-          </button>
-
-          <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
-            <i class="amr-icon amr-icon-cross"></i>
-          </button>
-        </div>
-
-        <div class="container amr-megamenu__inner js-megamenu-tab">
-          <div class="amr-megamenu__leftpanel">
-            <div class="amr-megamenu__leftpanel-header">
-              <p class="amr-megamenu__heading">Our Company</p>
-              <p class="amr-megamenu__line">The partner of choice for the builders of North America. </p>
-              
-                <a href="our-company.html" class="amr-button amr-button--default">
-                  Explore our company
-                </a>
-              
-            </div>
-
-            
-            
-
-            <ul class="amr-megamenu__leftpanel-tablist">
-              
-                
-                  
-                  
-                
-                
-                  <li>
-                    <a href="our-company.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
-                      Overview
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-company/strategy.html" data-tab-trigger="Strategy" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
-                      Strategy
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-company/governance.html" data-tab-trigger="Governance" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
-                      Governance
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-            </ul>
-          </div>
-
-          
-
-          <div class="amr-megamenu__rightpanel" tabindex="-1">
-            
-              <div data-tab-target="Overview" class="is-show">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-company.html">Overview</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-company.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-company/ourcompanyoverview-navimages-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Overview"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-              <div data-tab-target="Strategy">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-company/strategy.html">Strategy</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-company/strategy.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-company/v2-strategyoverview-nav-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Strategy"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-              <div data-tab-target="Governance">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-company/governance.html">Governance</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-company/governance.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-company/Nav_governance_v3.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Governance"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-          </div>
-        </div>
-      </div>
-
-      
-        <a href="our-company.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
-          Explore our company
-        </a>
-      
-    </div>
-  
-    <div data-megamenu-target="Our Solutions" class="amr-megamenu" tabindex="-1">
-      <div class="fixed-container">
-        <div class="amr-header__navigation amr-megamenu__header">
-          <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
-            <i class="amr-icon amr-icon-chevron-left"></i>
-            <span>...</span>
-          </button>
-
-          <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
-            <i class="amr-icon amr-icon-cross"></i>
-          </button>
-        </div>
-
-        <div class="container amr-megamenu__inner js-megamenu-tab">
-          <div class="amr-megamenu__leftpanel">
-            <div class="amr-megamenu__leftpanel-header">
-              <p class="amr-megamenu__heading">Our Solutions</p>
-              <p class="amr-megamenu__line">We deliver advanced building solutions from foundation to rooftop, serving customers across infrastructure, commercial and residential markets and from new build to repair and refurbishment. </p>
-              
-                <a href="our-solutions.html" class="amr-button amr-button--default">
-                  Explore our solutions
-                </a>
-              
-            </div>
-
-            
-            
-
-            <ul class="amr-megamenu__leftpanel-tablist">
-              
-                
-                  
-                  
-                
-                
-                  <li>
-                    <a href="our-solutions.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
-                      Overview
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-solutions/infrastructure.html" data-tab-trigger="Infrastructure" class="amr-megamenu__leftpanel-tablist-link">
-                      Infrastructure
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-solutions/commercial-solutions.html" data-tab-trigger="Commercial" class="amr-megamenu__leftpanel-tablist-link">
-                      Commercial
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-solutions/residential-solutions.html" data-tab-trigger="Residential" class="amr-megamenu__leftpanel-tablist-link">
-                      Residential
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-solutions/repair-and-refurbishment.html" data-tab-trigger="Repair &amp; Refurbishment" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
-                      Repair &amp; Refurbishment
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-solutions/projects.html" data-tab-trigger="Projects" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
-                      Projects
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-            </ul>
-          </div>
-
-          
-
-          <div class="amr-megamenu__rightpanel" tabindex="-1">
-            
-              <div data-tab-target="Overview" class="is-show">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-solutions.html">Overview</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-solutions.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/v2-oursolutions-nav-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Overview"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-              <div data-tab-target="Infrastructure">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-solutions/infrastructure.html">Infrastructure</a>
-                  
-                </p>
-
-                
-                  
-                
-                  
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--2">
-                    
-                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-solutions/infrastructure.html">
-                        <span class="amr-megamenu__rightpanel-img-title">
-                          Infrastructure
-                        </span>
-                      </a>
-                    
-                    
-                      
-                        <a href="our-solutions/infrastructure/transportation-infrastructure.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/infrastructure-overview/transporation-navimages0427x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Transportation"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Transportation
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-solutions/infrastructure/public-works-infrastructure.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/infrastructure-overview/publicservices-navimages-428x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Public Works"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Public Works
-                          </span>
-                        </a>
-                      
-                    
-                  </div>
-                
-
-                
-              </div>
-            
-              <div data-tab-target="Commercial">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-solutions/commercial-solutions.html">Commercial</a>
-                  
-                </p>
-
-                
-                  
-                
-                  
-                
-                  
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--3">
-                    
-                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-solutions/commercial-solutions.html">
-                        <span class="amr-megamenu__rightpanel-img-title">
-                          Commercial
-                        </span>
-                      </a>
-                    
-                    
-                      
-                        <a href="our-solutions/commercial-solutions/institutional-solutions.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/commercial-overview/institutional-navimages-656x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Institutional"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Institutional
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-solutions/commercial-solutions/industrial-facilities.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/commercial-overview/v2-industrial-nav-656x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Industrial"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Industrial
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-solutions/commercial-solutions/general-building.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/commercial-overview/v2-generalbuilding-nav-428x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="General Building"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            General Building
-                          </span>
-                        </a>
-                      
-                    
-                  </div>
-                
-
-                
-              </div>
-            
-              <div data-tab-target="Residential">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-solutions/residential-solutions.html">Residential</a>
-                  
-                </p>
-
-                
-                  
-                
-                  
-                
-                  
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--3">
-                    
-                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-solutions/residential-solutions.html">
-                        <span class="amr-megamenu__rightpanel-img-title">
-                          Residential
-                        </span>
-                      </a>
-                    
-                    
-                      
-                        <a href="our-solutions/residential-solutions/single-family-homes.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/residential-overview/singlefamilyhome-navimages-427x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Single-Family Housing"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Single-Family Housing
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-solutions/residential-solutions/multi-family-housing.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/residential-overview/multifamilyhousing-navimages-427x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Multi-Family Housing"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Multi-Family Housing
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-solutions/residential-solutions/high-rise.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/residential-overview/highrise-navimages-428x532.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="High Rise"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            High Rise
-                          </span>
-                        </a>
-                      
-                    
-                  </div>
-                
-
-                
-              </div>
-            
-              <div data-tab-target="Repair &amp; Refurbishment">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-solutions/repair-and-refurbishment.html">Repair &amp; Refurbishment</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-solutions/repair-and-refurbishment.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/repairrefurbishmentoverview-navimages-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Repair &amp; Refurbishment"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-              <div data-tab-target="Projects">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-solutions/projects.html">Projects</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-solutions/projects.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-solutions/projectsoverview-navimages-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Projects"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-          </div>
-        </div>
-      </div>
-
-      
-        <a href="our-solutions.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
-          Explore our solutions
-        </a>
-      
-    </div>
-  
-    <div data-megamenu-target="Our Businesses" class="amr-megamenu" tabindex="-1">
-      <div class="fixed-container">
-        <div class="amr-header__navigation amr-megamenu__header">
-          <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
-            <i class="amr-icon amr-icon-chevron-left"></i>
-            <span>...</span>
-          </button>
-
-          <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
-            <i class="amr-icon amr-icon-cross"></i>
-          </button>
-        </div>
-
-        <div class="container amr-megamenu__inner js-megamenu-tab">
-          <div class="amr-megamenu__leftpanel">
-            <div class="amr-megamenu__leftpanel-header">
-              <p class="amr-megamenu__heading">Our Businesses</p>
-              <p class="amr-megamenu__line">With over 100 years of experience and 1,000+ sites across North America, we deliver advanced building materials and building envelope solutions from foundation to rooftop.</p>
-              
-                <a href="our-businesses.html" class="amr-button amr-button--default">
-                  Explore our businesses
-                </a>
-              
-            </div>
-
-            
-            
-
-            <ul class="amr-megamenu__leftpanel-tablist">
-              
-                
-                  
-                  
-                
-                
-                  <li>
-                    <a href="our-businesses.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
-                      Overview
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-businesses/building-materials.html" data-tab-trigger="Building Materials" class="amr-megamenu__leftpanel-tablist-link">
-                      Building Materials
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-businesses/building-envelope.html" data-tab-trigger="Building Envelope" class="amr-megamenu__leftpanel-tablist-link">
-                      Building Envelope
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-businesses/resources.html" data-tab-trigger="Resources" class="amr-megamenu__leftpanel-tablist-link">
-                      Resources
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-                
-                
-                  <li>
-                    <a href="our-businesses/distribution-and-logistics.html" data-tab-trigger="Distribution &amp; Logistics" class="amr-megamenu__leftpanel-tablist-link" data-ignore-mobile>
-                      Distribution &amp; Logistics
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-            </ul>
-          </div>
-
-          
-
-          <div class="amr-megamenu__rightpanel" tabindex="-1">
-            
-              <div data-tab-target="Overview" class="is-show">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-businesses.html">Overview</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-businesses.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/ourbusinessesoverview-navimages-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Overview"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-              <div data-tab-target="Building Materials">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-businesses/building-materials.html">Building Materials</a>
-                  
-                </p>
-
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--4">
-                    
-                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-businesses/building-materials.html">
-                        <span class="amr-megamenu__rightpanel-img-title">
-                          Building Materials
-                        </span>
-                      </a>
-                    
-                    
-                      
-                        <a href="our-businesses/building-materials/cement.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-materials-overview/cement-navimages-427x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Cement"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Cement
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-materials/aggregates.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-materials-overview/aggregates-navimages-428x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Aggregates"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Aggregates
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-materials/concrete.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-materials-overview/concrete-navimages-427x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Concrete"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Concrete
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-materials/asphalt.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-materials-overview/asphalt-navimages-427x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Asphalt"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Asphalt
-                          </span>
-                        </a>
-                      
-                    
-                  </div>
-                
-
-                
-              </div>
-            
-              <div data-tab-target="Building Envelope">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-businesses/building-envelope.html">Building Envelope</a>
-                  
-                </p>
-
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--5">
-                    
-                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-businesses/building-envelope.html">
-                        <span class="amr-megamenu__rightpanel-img-title">
-                          Building Envelope
-                        </span>
-                      </a>
-                    
-                    
-                      
-                        <a href="our-businesses/building-envelope/commercial-roofing.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-envelope-overview/Cupertino_01.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Commercial Roofing"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Commercial Roofing
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-envelope/residential-roofing.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-envelope-overview/house-427x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Residential Roofing"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Residential Roofing
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-envelope/insulation.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-envelope-overview/insulation-navimages-428x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Insulation"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Insulation
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-envelope/weatherization.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-envelope-overview/v2-weatherization-nav-427x230.webp/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Weatherization"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Weatherization
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/building-envelope/adhesives-and-sealants.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/building-envelope-overview/adhesivessealants-navimages0427x230.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Adhesives &amp; Sealants"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Adhesives &amp; Sealants
-                          </span>
-                        </a>
-                      
-                    
-                  </div>
-                
-
-                
-              </div>
-            
-              <div data-tab-target="Resources">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-businesses/resources.html">Resources</a>
-                  
-                </p>
-
-                
-                  
-                
-                  
-                
-                  
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--3">
-                    
-                      <a class="amr-megamenu__rightpanel-img-link amr-megamenu__rightpanel-img-link--xl-hide" href="our-businesses/resources.html">
-                        <span class="amr-megamenu__rightpanel-img-title">
-                          Resources
-                        </span>
-                      </a>
-                    
-                    
-                      
-                        <a href="our-businesses/resources/digital-solutions.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/resources-overview/nav-digitalsolutions.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Digital Solutions"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Digital Solutions
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/resources/document-library.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/resources-overview/nav-documents.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Document Library"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Document Library
-                          </span>
-                        </a>
-                      
-                    
-                      
-                        <a href="our-businesses/resources/product-brand-catalog.html" class="amr-megamenu__rightpanel-img-link">
-                          
-                          <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/resources-overview/nav-product.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Product &amp; Brand Catalog"/>
-                          <span class="amr-megamenu__rightpanel-img-title">
-                            Product &amp; Brand Catalog
-                          </span>
-                        </a>
-                      
-                    
-                  </div>
-                
-
-                
-              </div>
-            
-              <div data-tab-target="Distribution &amp; Logistics">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="our-businesses/distribution-and-logistics.html">Distribution &amp; Logistics</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="our-businesses/distribution-and-logistics.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/our-businesses/distribution-nav-1344x604.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Distribution &amp; Logistics"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-          </div>
-        </div>
-      </div>
-
-      
-        <a href="our-businesses.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
-          Explore our businesses
-        </a>
-      
-    </div>
-  
-    <div data-megamenu-target="Innovation" class="amr-megamenu" tabindex="-1">
-      <div class="fixed-container">
-        <div class="amr-header__navigation amr-megamenu__header">
-          <button type="button" class="amr-megamenu__back-btn-as-link btn-reset" data-megamenu-close>
-            <i class="amr-icon amr-icon-chevron-left"></i>
-            <span>...</span>
-          </button>
-
-          <button data-megamenu-close="all" type="button" class="btn-reset" aria-label="close menu">
-            <i class="amr-icon amr-icon-cross"></i>
-          </button>
-        </div>
-
-        <div class="container amr-megamenu__inner js-megamenu-tab">
-          <div class="amr-megamenu__leftpanel">
-            <div class="amr-megamenu__leftpanel-header">
-              <p class="amr-megamenu__heading">Innovation</p>
-              <p class="amr-megamenu__line">We bring innovation to everything we do, harnessing a broad range of technologies, advanced materials and open innovation ecosystems to make every build better. ​
-</p>
-              
-                <a href="innovation.html" class="amr-button amr-button--default">
-                  Explore our innovations
-                </a>
-              
-            </div>
-
-            
-            
-
-            <ul class="amr-megamenu__leftpanel-tablist">
-              
-                
-                  
-                  
-                
-                
-                  <li>
-                    <a href="innovation.html" data-tab-trigger="Overview" class="amr-megamenu__leftpanel-tablist-link is-active" data-ignore-mobile>
-                      Overview
-                      <i aria-hidden="true" class="amr-icon amr-icon-chevron-right"></i>
-                    </a>
-                  </li>
-                
-              
-            </ul>
-          </div>
-
-          
-
-          <div class="amr-megamenu__rightpanel" tabindex="-1">
-            
-              <div data-tab-target="Overview" class="is-show">
-                <p class="amr-megamenu__rightpanel-heading amr-megamenu__heading amr-megamenu__heading--gap">
-                  
-                    <a href="innovation.html">Overview</a>
-                  
-                </p>
-
-                
-
-                
-
-                
-
-                
-                  <div class="amr-megamenu__rightpanel-img-holder amr-megamenu__rightpanel-img-holder--1">
-                    
-                    
-                      <a href="innovation.html" class="amr-megamenu__rightpanel-img-link">
-                        <img width="672" height="302" class="amr-megamenu__rightpanel-img" loading="lazy" src="../../content/dam/newco/language-masters/en/header/innovation/nav-innovation.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="Overview"/>
-                      </a>
-                    
-                  </div>
-                
-              </div>
-            
-          </div>
-        </div>
-      </div>
-
-      
-        <a href="innovation.html" class="amr-button amr-megamenu__back-btn w-full amr-button--default" type="button">
-          Explore our innovations
-        </a>
-      
-    </div>
-  
-
-  <form action="https://www.amrize.com/us/en/search.html" method="get" class="amr-searchpanel" data-global-search data-search-result-page-url="https://www.amrize.com/us/en/search.html" data-search-url="https://www.amrize.com/us/en/newsroom.html" onsubmit="return this.querySelector('.js-search-input').value.trim() !== ''">
-    <button class="amr-searchpanel__close" type="button" aria-label="Close" data-toggleable-class="is-show" data-toggleable-target=".amr-searchpanel">
-      <i aria-label="true" class="amr-icon amr-icon-cross"></i>
-    </button>
-
-    <div class="amr-searchpanel__field-label">
-      <button type="submit" class="amr-searchpanel__field-submit">
-        <span class="screen-reader-only">Search</span>
-        <i class="amr-icon amr-icon-search" aria-hidden="true"></i>
-      </button>
-      <label>
-        <input data-global-search-input class="amr-searchpanel__field js-search-input" type="text" placeholder="Search" name="q"/>
-
-        <span class="screen-reader-only">Search</span>
-      </label>
-    </div>
-
-    <div data-global-search-suggestion-container class="amr-searchpanel__suggestions-container">
-      <p class="amr-searchpanel__title">
-        Search
-      </p>
-
-      <div data-global-search-suggestion class="amr-searchpanel__suggestions"></div>
-    </div>
-  </form>
-</div>
-</div>
-
-        
-    </div>
-
-</div>
+          </footer>
 
     
-</header>
-<div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
-
-
-
-    
-
-</div>
-<main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-
-    
-    <div id="container-85bdfb1344" class="cmp-container">
-        
-
-
-<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-    
-    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-
-    
-    <div id="container-c2763af17b" class="cmp-container">
-        
-
-
-<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-    
-    <div class="hero aem-GridColumn aem-GridColumn--default--12">
-
-
-<div class="amr-hero fixed-container  
-  amr-hero--bleed bg-dark-gradient
-   ">
-  <div class="amr-breadcrumb amr-breadcrumb--desktop-white">
-    
-<nav id="breadcrumb-05ee89092c" class="cmp-breadcrumb" aria-label="Breadcrumb" data-cmp-data-layer="{&#34;breadcrumb-05ee89092c&#34;:{&#34;@type&#34;:&#34;newco/components/breadcrumb&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-27T22:39:55Z&#34;}}" role="navigation">
-    <ol class="cmp-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
-        
-        <li class="cmp-breadcrumb__item" data-cmp-data-layer="{&#34;breadcrumb-05ee89092c-item-ad8c8272fa&#34;:{&#34;@type&#34;:&#34;newco/components/breadcrumb/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:48:02Z&#34;,&#34;dc:title&#34;:&#34;Amrize&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en.html&#34;}}" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-            <a class="cmp-breadcrumb__item-link" itemprop="item" data-cmp-clickable href="../en.html">
-                <span itemprop="name">Amrize</span>
-            </a>
-            <meta itemprop="position" content="1"/>
-        </li>
-    
-        
-        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" aria-current="page" data-cmp-data-layer="{&#34;breadcrumb-05ee89092c-item-d77b3dbdd9&#34;:{&#34;@type&#34;:&#34;newco/components/breadcrumb/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T10:22:43Z&#34;,&#34;dc:title&#34;:&#34;Newsroom&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en/newsroom.html&#34;}}" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-            
-                <span itemprop="name">Newsroom</span>
-            
-            <meta itemprop="position" content="2"/>
-        </li>
-    </ol>
-</nav>
-
-    
-
-
-  </div>
-
-  <div class="amr-hero__wrapper">
-    <div>
-      <h1 class="amr-hero__heading amr-hero__heading--desktop-white amr-hero__heading--mobile-navy ">Our Latest News and Updates</h1>
-      
-    </div>
-
-    <div class="amr-hero__content">
-      
-      
-      
-        <div class="amr-hero__image" role="presentation">
-<div data-cmp-is="image" data-cmp-widths="320,480,600,800,1024,1200,1600" data-cmp-src="/adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg?width={width}&amp;quality=85&amp;preferwebp=true" data-cmp-filereference="/content/dam/newco/language-masters/en/Newsroom/newsroom/v3-washington-memorial-hero-min.jpg" id="image-10292682b6" data-cmp-data-layer="{&#34;image-10292682b6&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/image&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-27T22:39:55Z&#34;,&#34;dc:title&#34;:&#34;Lincoln Memorial, Washington, D.C.&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;4cd49be9-d8e0-417a-b856-405615cebead&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T00:40:13Z&#34;,&#34;@type&#34;:&#34;image/jpeg&#34;,&#34;repo:path&#34;:&#34;/content/dam/newco/language-masters/en/Newsroom/newsroom/v3-washington-memorial-hero-min.jpg&#34;,&#34;xdm:tags&#34;:[&#34;properties:orientation/square&#34;],&#34;xdm:smartTags&#34;:{&#34;fountain&#34;:0.806,&#34;historic&#34;:0.837,&#34;military organization&#34;:0.827,&#34;historical site&#34;:0.796,&#34;rendering&#34;:0.788,&#34;monument&#34;:0.803,&#34;tourist attraction&#34;:0.779,&#34;foreground&#34;:0.763,&#34;architectural photography&#34;:0.96,&#34;grand&#34;:0.795,&#34;parliament&#34;:0.772,&#34;march&#34;:0.768,&#34;government&#34;:0.914,&#34;panorama&#34;:0.754,&#34;reflecting pool&#34;:0.842,&#34;portico&#34;:0.835,&#34;colonnade&#34;:0.912,&#34;pavilion&#34;:0.782,&#34;perimeter&#34;:0.754,&#34;campaign&#34;:0.785,&#34;landmark&#34;:0.885,&#34;architecture&#34;:0.817}}}}" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
-    
-        <img src="../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@quality=85&amp;preferwebp=true" srcset="../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=320&amp;quality=85&amp;preferwebp=trueebp=tr../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=480&amp;quality=85&amp;preferwebp=true;prefe../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=600&amp;quality=85&amp;preferwebp=truey=85&a../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=800&amp;quality=85&amp;preferwebp=truep;qual../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=1024&amp;quality=85&amp;preferwebp=true=1024&a../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=1200&amp;quality=85&amp;preferwebp=truepg?widt../../adobe/dynamicmedia/deliver/dm-aid--4cd49be9-d8e0-417a-b856-405615cebead/v3-washington-memorial-hero-min.jpg@width=1600&amp;quality=85&amp;preferwebp=truero-min.jpg?width=1600&amp;quality=85&amp;preferwebp=true 1600w" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="2880" height="1536" alt/>
-    
-    <span class="cmp-image__title" itemprop="caption">Lincoln Memorial, Washington, D.C.</span>
-    
-</div>
-
-    
-
-</div>
-      
-    </div>
-  </div>
-  
-  
-
-
-
-
-    
-
-
-
-
-</div>
-
-<div id="playVideoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1" style="display: none;">
-  <div class="modal-content">
-    <button id="closeModal" class="close" aria-label="Close modal">&times;</button>
-    <iframe id="youtubeVideo" class="responsive-video" height="100%" width="100%" src="newsroom.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;" allowfullscreen>
-    </iframe>
-  </div>
-</div></div>
-<div class="contentrichtext aem-GridColumn aem-GridColumn--default--12">
-    
-
-<div>
-  <div class="amr-contentrichtext amr-contentrichtext--">
-    <div class="amr-contentrichtext__wrapper">
-      
-      
-        
-
-        <div class="amr-contentrichtext__text">
-          <h3 style="	text-align: left;
-"><span class="text-navy">Company News</span></h3>
-
-        </div>
-      
-    </div>
-    
-      
-    
-  </div>
-</div>
-</div>
-<div class="listing-news aem-GridColumn aem-GridColumn--default--12">
-
-
-<script>
-  (function () {
-    window.app = {};
-    window.app.amrize = {};
-    window.app.amrize.news = {};
-
-    const rawList = '[{"title":"Building the Future: 10 Things to Know About Amrize","path":"https://www.amrize.com/us/en/newsroom/building-the-future--10-things-to-know-about-amrize.html","date":1751518800000,"formattedDate":"July 03, 2025","tags":["feature-story"]},{"title":"Launching a company—with 19,000 founders","path":"https://www.amrize.com/us/en/newsroom/launching-a-company-with-19-000-founders.html","date":1751432400000,"formattedDate":"July 02, 2025","tags":["feature-story"]},{"title":"Amrize Rings In New Era: A look back at NYSE listing day—and ahead to what’s next","path":"https://www.amrize.com/us/en/newsroom/amrize-rings-in-new-era.html","date":1751346000000,"formattedDate":"July 01, 2025","tags":["feature-story"]},{"title":"Amrize Debuts as Independent, Publicly Traded Company","path":"https://www.amrize.com/us/en/newsroom/amrize-debuts-as-independent--publicly-traded-company.html","date":1750654800000,"formattedDate":"June 23, 2025","tags":["media-release"]},{"title":"Holcim Plans Amrize Spin-off for June 23","description":"News release about Holcim receiving key approvals to complete the 100% spin-off of its North American business to be named Amrize.","path":"https://www.amrize.com/us/en/newsroom/holcim-plans-amrize-spin-off.html","date":1748847600000,"formattedDate":"June 02, 2025","tags":["ad-hoc"]},{"title":"Holcim Shareholders Approve All Proposals","description":"News release about Holcim shareholder approval of all Board of Directors’ proposals at the 2025 Annual General Meeting.","path":"https://www.amrize.com/us/en/newsroom/holcim-shareholders-approve-all-proposals.html","date":1747191600000,"formattedDate":"May 14, 2025","tags":["media-release"]},{"title":"Amrize Updates Form 10 With First Quarter Financials","description":"News release about Amrize’s completion of another step toward the planned spin-off from Holcim with the update of its Form 10 Registration Statement.","path":"https://www.amrize.com/us/en/newsroom/amrize-updates-form-10-with-first-quarter-financials.html","date":1746586800000,"formattedDate":"May 07, 2025","tags":["ad-hoc"]},{"title":"Amrize Completes Bond Offering Ahead Of Planned Spin-Off","description":"News release about Amrize’s successful completion of a $3.4 billion bond offering reflecting strong investor interest in the future company.","path":"https://www.amrize.com/us/en/newsroom/amrize-completes-bond-offering-ahead-of-planned-spin-off.html","date":1743994800000,"formattedDate":"April 07, 2025","tags":["media-release"]},{"title":"Amrize To Deliver Next Phase Of Value Creation As Standalone Company","description":"News release about Amrize presenting its business, growth strategy, capital allocation priorities and mid-term financial targets at its investor day in New York.","path":"https://www.amrize.com/us/en/newsroom/amrize-to-deliver-next-phase.html","date":1742886000000,"formattedDate":"March 25, 2025","tags":["ad-hoc"]},{"title":"Amrize Form 10 Publicly Filed With U.S. Securities And Exchange Commission For Planned Spin-Off","description":"News release about Amrize filing its Form 10 Registration Statement with the U.S. Securities and Exchange Commission.","path":"https://www.amrize.com/us/en/newsroom/amrize-form-10-publicly-filed-with-us-securities-and-exchange-commission-for-planned-spin-off.html","date":1740729600000,"formattedDate":"February 28, 2025","tags":["ad-hoc"]},{"title":"Holcim’s North America Business To Be Named Amrize Following Planned Spin-Off","description":"News release about the newly announced company, Amrize.","path":"https://www.amrize.com/us/en/newsroom/holcim-s-north-america-business-amrize.html","date":1740124800000,"formattedDate":"February 21, 2025","tags":["media-release"]},{"title":"Holcim Appoints Board And CEO","description":"News release about Holcim appointing a Board and CEO for its planned North American company","path":"https://www.amrize.com/us/en/newsroom/holcim-appoints-board-and-ceo.html","date":1736496000000,"formattedDate":"January 10, 2025","tags":["ad-hoc"]},{"title":"Planned Spin-Off Of Holcim’s North American Business Expected To Occur In H1 2025","description":"News release about how Holcim is progressing on the planned full capital market separation of its North American business.","path":"https://www.amrize.com/us/en/newsroom/planned-spin-off-of-holcim-s-north-american-business-expected-to.html","date":1733472000000,"formattedDate":"December 06, 2024","tags":["ad-hoc"]},{"title":"Holcim Intends To List Its North American Business In The U.S.","description":"News release about Holcim announcing its intent to list its North American business in the U.S. with a full capital market separation.","path":"https://www.amrize.com/us/en/newsroom/holcim-intends-to-list-its-north-american-business-in-the-us.html","date":1706428800000,"formattedDate":"January 28, 2024","tags":["ad-hoc"]}]';
-    const safeList = rawList.replace(/[\r\n]+/g, " ");
-    window.app.amrize.news.list = JSON.parse(safeList);
-
-    const rawNewsTypes =
-      '{"media-release":"Media Release","feature-story":"Feature Story","ad-hoc":"Ad Hoc Release"}';
-    const safeNewsTypes = rawNewsTypes.replace(/[\r\n]+/g, " ");
-    window.app.amrize.news.newsTypes = JSON.parse(safeNewsTypes);
-
-    window.app.amrize.news.properties = {
-      listingLimit: "15",
-      sortbylabel: "Sort By:",
-      sortbylabelasc: "A to Z",
-      sortbylabeldesc: "Z to A",
-      resultsLabel: "Results",
-      all: "All",
-    };
-  })();
-</script>
-
-<div class="amr-listing-product-brands" data-tag-filter3>
-  <div class="amr-listing-product-brands-filter">
-    <div class="amr-listing-product-brands-filter__item">
-      <div class="custom-select-container">
-        <label id="news-label" class="screen-reader-only" for="product-select">
-          All
-        </label>
-
-        <div class="custom-select-box" id="news-select" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="news-label" tabindex="0" data-target="news" data-tag-filter-input>
-          <div class="select-placeholder">All</div>
-          <div class="selected-count" aria-live="polite" aria-atomic="true"></div>
-          <div class="select-arrow" aria-hidden="true">
-            <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-          </div>
-        </div>
-
-        <div aria-label="portfolio" class="dropdown-menu" data-for="news" role="listbox" aria-multiselectable="true" hidden>
-          <div class="dropdown-options"></div>
         </div>
       </div>
     </div>
 
-    <label class="amr-listing-product-brands-filter__select amr-listing-product-brands-filter__select--wrapper amr-listing-product-brands-filter__item amr-listing-product-brands-filter__item--auto">
-      <span>Sort By:</span>
-      <select data-sortby class="amr-listing-product-brands-filter__select--ghost">
-        <option value="asc">A to Z</option>
-        <option value="desc">Z to A</option>
-        <option value="dateasc">Date (Ascending)</option>
-        <option value="datedesc" selected>
-          Date (Descending)
-        </option>
-      </select>
-    </label>
-  </div>
 
-  <p class="amr-listing-product-brands-results" data-results-label></p>
-
-  <div class="amr-listing-product-brands__listing" data-listing-container></div>
-
-  <div class="amr-pagination" data-listing-pagination>
-    <div class="amr-pagination__page-item">
-      <button type="button" class="amr-pagination__page-link amr-pagination__page-link--prev" aria-label="Previous" disabled>
-        <i class="amr-icon amr-icon-chevron-left" aria-hidden="true"></i>
-      </button>
-    </div>
-
-    <div class="amr-pagination__item-wrapper"></div>
-
-    <div class="amr-pagination__page-item">
-      <button type="button" class="amr-pagination__page-link amr-pagination__page-link--next" aria-label="Next">
-        <i class="amr-icon amr-icon-chevron-right" aria-hidden="true"></i>
-      </button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="cta-ribbon aem-GridColumn aem-GridColumn--default--12">
-    
+    <!-- JS -->
+    <script src="src/js/clientlib-site.lc-b8547d462ebd8cb594e74b4435346759-lc.min.js"></script>
+    <script async src="src/js/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
+    <script async src="src/js/csrf.lc-56934e461ff6c436f962a5990541a527-lc.min.js"></script>
+    <script async src="src/js/clientlib-base.lc-86b9d387dd6a9ac638344b5a4522ed15-lc.min.js"></script>
 
 
-<div class="amr-cta-ribbon">
-  <div class="amr-cta-ribbon__wrapper bg-blue">
-    <div class="amr-cta-ribbon__title" tabindex="0">
-      Get the latest news and updates directly to your inbox
-    </div>
-
-    
-
-      <a href="contact-us/newsletter-signup.html" class="amr-button amr-button--white amr-button--icon amr-cta-ribbon__cta" target="_self" aria-label="Subscribe">
-        <i aria-hidden="true" class="amr-icon amr-icon-email"></i>
-        Subscribe
-      </a>
-    
-  </div>
-</div></div>
-<div class="signpostboxes aem-GridColumn aem-GridColumn--default--12">
-    
-
-
-<div class="amr-signposts-boxes">
-  <h3 class="amr-signposts-boxes__heading">
-    Media Library
-  </h3>
-
-  <div class="amr-signposts-boxes__links amr-signposts-boxes__links--4">
-    
-      
-        
-          
-          <a href="our-businesses/resources/media-library.html#logos-anchor" target="_self" class="amr-signposts-boxes__links-link">
-            
-              Logos
-            
-            <i aria-hidden="true" class="amr-icon amr-icon-arrow-right"></i>
-          </a>
-          
-        
-          
-          <a href="our-businesses/resources/media-library.html#b-roll-anchor" target="_self" class="amr-signposts-boxes__links-link">
-            
-              B-Roll
-            
-            <i aria-hidden="true" class="amr-icon amr-icon-arrow-right"></i>
-          </a>
-          
-        
-          
-          <a href="our-businesses/resources/media-library.html#project-images-anchor" target="_self" class="amr-signposts-boxes__links-link">
-            
-              Images
-            
-            <i aria-hidden="true" class="amr-icon amr-icon-arrow-right"></i>
-          </a>
-          
-        
-          
-          <a href="our-businesses/resources/media-library.html" target="_self" class="amr-signposts-boxes__links-link">
-            
-              Full Library
-            
-            <i aria-hidden="true" class="amr-icon amr-icon-arrow-right"></i>
-          </a>
-          
-        
-      
-    
-  </div>
-</div>
-</div>
-<div class="separator amr-separator--vs-sm amr-separator--line-blue aem-GridColumn aem-GridColumn--default--12">
-<div class="cmp-separator">
-    <hr class="cmp-separator__horizontal-rule"/>
-</div></div>
-<div class="contentrichtext aem-GridColumn aem-GridColumn--default--12">
-    
-
-<div>
-  <div class="amr-contentrichtext amr-contentrichtext--default">
-    <div class="amr-contentrichtext__wrapper">
-      
-      
-        
-
-        <div class="amr-contentrichtext__text">
-          <p> </p>
-<h3><span class="text-navy">Media Contact</span></h3>
-<p> </p>
-<p>Members of the media can contact us at:</p>
-<p> </p>
-<p><a href="mailto:media&#64;amrize.com">media&#64;amrize.com</a></p>
-<p>&#43;1 773-676-4981</p>
-
-        </div>
-      
-    </div>
-    
-      
-    
-  </div>
-</div>
-</div>
-
-    
-</div>
-
-    </div>
-
-    
-</div>
-
-    
-</div>
-
-    </div>
-
-    
-</main>
-<footer class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
-<div id="experiencefragment-ac0dab292c" class="cmp-experiencefragment cmp-experiencefragment--footer">
-
-
-    
-    
-    
-    <div id="container-6e5d5a2f0f" class="cmp-container">
-        
-        <div class="footer"><div class="amr-footer fixed-container">
-  
-    <a class="amr-footer__logo" href="../en.html">
-      <img src="../../content/dam/newco/language-masters/en/footer/Amrize_tagline_h_w.png" alt="Amrize Homepage"/>
-    </a>
-  
-  <div class="amr-footer__content">
-    <div class="amr-footer__content__main">
-      <section class="amr-footer__content__section-connect">
-        <h5 class="amr-footer__content__section-title">
-          Connect
-        </h5>
-        <ul>
-          
-            <li>
-              <a href="contact-us.html">Contact us</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="locations.html">Find a location</a>
-            </li>
-          
-        </ul>
-      </section>
-      <section class="amr-footer__content__section-social">
-        <h5 class="amr-footer__content__section-title">
-          Social
-        </h5>
-        <ul class="social-links">
-          
-            <li>
-              <a href="https://www.linkedin.com/company/amrize" target="_blank">
-                <i class="amr-icon amr-icon-linkedin" aria-hidden="true"></i>
-                LinkedIn
-              </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://www.instagram.com/amrize" target="_blank">
-                <i class="amr-icon amr-icon-instagram" aria-hidden="true"></i>
-                Instagram
-              </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://www.facebook.com/amrize.ltd" target="_blank">
-                <i class="amr-icon amr-icon-facebook" aria-hidden="true"></i>
-                Facebook
-              </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://x.com/amrize" target="_blank">
-                <i class="amr-icon amr-icon-x" aria-hidden="true"></i>
-                X
-              </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://www.youtube.com/@AmrizeLtd" target="_blank">
-                <i class="amr-icon amr-icon-youtube" aria-hidden="true"></i>
-                YouTube
-              </a>
-            </li>
-          
-        </ul>
-      </section>
-      <section class="amr-footer__content__section-terms">
-        <h5 class="amr-footer__content__section-title">
-          Terms &amp; Policies
-        </h5>
-        <ul>
-          
-            <li>
-              <a href="privacy-notice.html">Privacy Notice</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="accessibility-statement.html">Accessibility Statement</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="terms-of-use.html">Terms of Use</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="cookie-policy.html">Cookie Policy</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="code-of-conduct.html">Code of Conduct</a>
-            </li>
-          
-        </ul>
-      </section>
-    </div>
-    <div class="separator">
-      <hr class="amr-footer__horizontal-rule"/>
-    </div>
-    <section class="amr-footer__content__section-utility">
-      <div class="copyright-text">
-        <span>© Amrize 2025</span>
-      </div>
-      <ul class="utility-menu">
-        
-          <li>
-            <a href="legal-mentions.html">Legal mentions</a>
-          </li>
-        
-      </ul>
-      <div class="language-selector js-langselector-dropdown" data-language-navigation>
-        <button type="button" class="amr-footer__langselector" data-language-navigation-current data-toggleable-class="is-open" data-close-outside data-toggleable-target=".js-langselector-dropdown">
-          <i class="amr-icon amr-icon-web" aria-hidden="true"></i>
-          <span>United States (English)</span>
-          <i class="amr-icon amr-icon-chevron-down" aria-hidden="true"></i>
-        </button>
-        
-<nav data-cmp-data-layer="{&#34;languagenavigation-daceed50f7&#34;:{&#34;@type&#34;:&#34;/apps/newco/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-22T18:47:25Z&#34;}}" id="languagenavigation-daceed50f7" class="cmp-languagenavigation" role="navigation">
-    <ul class="cmp-languagenavigation__group">
-        
-    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-daceed50f7-item-d77b3dbdd9&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T10:22:43Z&#34;,&#34;dc:title&#34;:&#34;us&#34;,&#34;xdm:linkURL&#34;:&#34;/us/en/newsroom.html&#34;}}">
-        
-    <a class="cmp-languagenavigation__item-link" href="newsroom.html" hreflang="en" lang="en" rel="alternate">
-        <span class="lang-key-header">
-            US (EN)
-        </span>
-        <span class="lang-key-footer">
-            United States (English)
-        </span>
-    </a>
-
-        
-    </li>
-
-    
-        
-    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-fr cmp-languagenavigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-daceed50f7-item-8acf568ad5&#34;:{&#34;@type&#34;:&#34;newco/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-28T19:47:02Z&#34;,&#34;dc:title&#34;:&#34;sadaasda&#34;,&#34;xdm:linkURL&#34;:&#34;/ca/fr/amrize-homepage.html&#34;}}">
-        
-    <a class="cmp-languagenavigation__item-link" href="../../ca/fr/amrize-homepage.html" hreflang="fr" lang="fr" rel="alternate">
-        <span class="lang-key-header">
-            CA (FR)
-        </span>
-        <span class="lang-key-footer">
-            Canada (French)
-        </span>
-    </a>
-
-        
-    </li>
-
-    </ul>
-</nav>
-
-    
-
-
-      </div>
-    </section>
-  </div>
-</div>
-</div>
-
-        
-    </div>
-
-</div>
-
-    
-</footer>
-
-    
-</div>
-
-    </div>
-
-    
-</div>
-
-
-            
-    
-    <script src="../../etc.clientlibs/newco/clientlibs/clientlib-site.lc-b8547d462ebd8cb594e74b4435346759-lc.min.js"></script>
-
-
-    
-
-  
-    <script async src="../../etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
-<script async src="../../etc.clientlibs/clientlibs/granite/jquery/granite/csrf.lc-56934e461ff6c436f962a5990541a527-lc.min.js"></script>
-<script async src="../../etc.clientlibs/newco/clientlibs/clientlib-base.lc-86b9d387dd6a9ac638344b5a4522ed15-lc.min.js"></script>
-
-
-
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX79BMWZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-  <!-- End Google Tag Manager (noscript) -->
-    
-
-    
-
-    
-    
-
-        
-    </body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX79BMWZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  </body>
 </html>
